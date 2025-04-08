@@ -1,113 +1,115 @@
-# Patient Management System
+# Patient Management Application
 
-A comprehensive healthcare application for managing patients, medications, and appointments built with React and TypeScript.
+A modern React TypeScript application for managing patients, appointments, medications, and healthcare provider interactions.
 
 ## Features
 
-- **Patient Management**:
-  - View patient list and search functionality
-  - Detailed patient profiles with medical history
-  - Patient flags and allergy information
-
-- **Medication Management**:
-  - Medication tracking and history
-  - Prescription workflow
-  - Medication status monitoring
-
-- **Appointment Scheduling**:
-  - Calendar view of appointments
-  - Appointment creation and management
-  - Provider availability checking
-
-## Project Structure
-
-```
-/patient-management-app
-├── public/                 # Static files
-├── src/
-│   ├── components/         # Reusable UI components
-│   │   ├── common/         # Common components (LoadingSpinner, ErrorMessage, etc.)
-│   │   ├── layout/         # Layout components (Header, Sidebar, etc.)
-│   │   ├── patient/        # Patient-related components
-│   │   ├── medication/     # Medication-related components
-│   │   └── appointment/    # Appointment-related components
-│   ├── contexts/           # React Context providers
-│   ├── pages/              # Page components
-│   │   ├── patient/        # Patient-related pages
-│   │   ├── medication/     # Medication-related pages
-│   │   └── appointment/    # Appointment-related pages
-│   ├── services/           # API services
-│   │   ├── api/            # API client and services
-│   │   └── auth/           # Authentication services
-│   ├── hooks/              # Custom React hooks
-│   ├── types/              # TypeScript type definitions
-│   ├── utils/              # Utility functions
-│   ├── App.tsx             # Main App component
-│   ├── index.tsx           # Entry point
-│   └── theme.ts            # Theme configuration
-└── package.json            # Project dependencies and scripts
-```
+- Patient management (view, add, and edit patient records)
+- Appointment scheduling and management
+- Medication tracking and prescription management
+- Provider assignment and scheduling
+- Dashboard with key metrics
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (v14+)
-- npm or yarn
+- Node.js 14+ and npm/yarn
+- An understanding of React, TypeScript, and the LTHT component library
 
 ### Installation
 
 1. Clone the repository
-```bash
-git clone https://github.com/your-org/patient-management-system.git
-cd patient-management-system
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Start the development server:
+   ```
+   npm start
+   ```
+
+### Building for Production
+
+```
+npm run build
 ```
 
-2. Install dependencies
-```bash
-npm install
+## Component Library
+
+This application uses a wrapper system for LTHT React components to resolve TypeScript issues. The wrapper system:
+
+- Extends button variants to include 'success', 'danger', and 'link'
+- Provides proper typing for component composition (Form.Group, List.Item, etc.)
+- Handles required props like submitHandler and options
+
+### Using LTHT Components
+
+Always import components from the wrapper file instead of directly from LTHT packages:
+
+```typescript
+// DON'T use these direct imports:
+import Button from '@ltht-react/button';
+import Card from '@ltht-react/card';
+import { Form } from '@ltht-react/form';
+
+// DO use the wrapper components:
+import { 
+  Button, 
+  Card, 
+  Form 
+} from '../utils/ltht-component-wrappers';
 ```
 
-3. Start the development server
-```bash
-npm start
+### Example Usage
+
+Here are some examples of how to use the wrapper components:
+
+```typescript
+// Button with extended variants
+<Button variant="success">Success Button</Button>
+<Button variant="danger">Danger Button</Button>
+<Button variant="link">Link Button</Button>
+
+// Form with component composition
+<Form submitHandler={handleSubmit}>
+  <Form.Group>
+    <Form.Label htmlFor="name">Name</Form.Label>
+    <Input id="name" name="name" value={name} onChange={handleInputChange} />
+  </Form.Group>
+</Form>
+
+// Select with options
+<Select 
+  options={[
+    { value: 'option1', label: 'Option 1' },
+    { value: 'option2', label: 'Option 2' }
+  ]}
+  value={selectedOption}
+  onChange={handleSelectChange}
+/>
 ```
 
-4. Open your browser and navigate to http://localhost:3000
+For more detailed examples, refer to:
+- `src/import-test.tsx` - Example usage of all wrapper components
+- `src/docs/LTHT-TYPESCRIPT-FIX-GUIDE.md` - Comprehensive documentation
 
-### Testing
+## Development Approach
 
-Run the test suite with:
-```bash
-npm test
-```
+### Component Structure
 
-## Dependencies
+The application follows a modular component structure:
 
-This project uses the Leeds Teaching Hospitals NHS Trust React component library (`@ltht-react/*`) for consistent styling and functionality across healthcare applications. Main dependencies include:
+- **Pages** - Top-level route components (Dashboard, PatientList, etc.)
+- **Components** - Reusable UI components (LoadingSpinner, ErrorMessage, etc.)
+- **Services** - API integration and data handling
+- **Contexts** - State management with React Context API
+- **Utils** - Helper functions and utilities
 
-- React 18
-- TypeScript
-- React Router v6
-- Emotion (for styling)
-- LTHT React components
-- Axios (for API requests)
+### Styling
 
-## Development Mode
-
-The application currently uses mock data for development purposes. In a production environment, these would be replaced with actual API calls.
-
-To use mock data:
-```
-REACT_APP_USE_MOCK=true npm start
-```
-
-## Authentication
-
-For testing, use the following credentials:
-- Email: test@example.com
-- Password: password
+Styled components with Emotion are used for styling. Global theme variables are defined in `src/theme.ts`.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the LICENSE file for details.

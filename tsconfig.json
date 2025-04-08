@@ -66,6 +66,6 @@
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
     "skipLibCheck": true
   },
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules", "patient-management-app/**/*"],
   "include": ["packages/*/src", "components/**/src", ".eslintrc.js", "scripts/setupTests.ts"]
 }

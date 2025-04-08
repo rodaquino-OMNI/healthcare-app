@@ -1,10 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import styled from '@emotion/styled';
-import { Card } from '@ltht-react/card';
-import { List } from '@ltht-react/list';
+// Import wrapper components instead of direct LTHT components
+import { Card, List } from '../../utils/ltht-component-wrappers';
 import LoadingSpinner from '../../components/common/LoadingSpinner';
 import ErrorMessage from '../../components/common/ErrorMessage';
+
+// Access React APIs via namespace
+const { useState, useEffect } = React;
 
 // Styled components
 const PageContainer = styled.div`

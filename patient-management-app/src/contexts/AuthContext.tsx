@@ -1,5 +1,8 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React from 'react';
 import { authService } from '../services/auth/authService';
+
+// Access React APIs via namespace
+const { createContext, useContext, useState, useEffect } = React;
 
 // User type definition
 interface User {

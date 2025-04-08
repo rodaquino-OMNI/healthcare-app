@@ -1,14 +1,20 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import styled from '@emotion/styled';
-import { Card } from '@ltht-react/card';
-import { Button } from '@ltht-react/button';
-import { Form } from '@ltht-react/form';
-import { Input } from '@ltht-react/input';
-import { Select } from '@ltht-react/select';
+// Import wrapper components instead of direct LTHT components
+import {
+  Card,
+  Button,
+  Form,
+  Input,
+  Select
+} from '../../utils/ltht-component-wrappers';
 import { patientService } from '../../services/api/patientService';
 import LoadingSpinner from '../../components/common/LoadingSpinner';
 import ErrorMessage from '../../components/common/ErrorMessage';
+
+// Access React APIs via namespace
+const { useState, useEffect } = React;
 
 // Styled components
 const PageContainer = styled.div`
@@ -316,6 +322,33 @@ const AppointmentSchedule: React.FC = () => {
     return `${name.given?.join(' ') || ''} ${name.family || ''}`.trim();
   };
   
+  // Create options arrays for Select components
+  const patientOptions = patients.map(patient => ({
+    value: patient.id,
+    label: getPatientName(patient)
+  }));
+  
+  const providerOptions = providers.map(provider => ({
+    value: provider.id,
+    label: `${provider.name} (${provider.speciality})`
+  }));
+  
+  const appointmentTypeOptions = [
+    { value: "", label: "Select type" },
+    { value: "Check-up", label: "Check-up" },
+    { value: "Follow-up", label: "Follow-up" },
+    { value: "New Patient Consultation", label: "New Patient Consultation" },
+    { value: "Medication Review", label: "Medication Review" },
+    { value: "Specialist Referral", label: "Specialist Referral" }
+  ];
+  
+  const durationOptions = [
+    { value: "15", label: "15 minutes" },
+    { value: "30", label: "30 minutes" },
+    { value: "45", label: "45 minutes" },
+    { value: "60", label: "60 minutes" }
+  ];
+  
   return (
     <PageContainer>
       <PageHeader>
@@ -329,7 +362,7 @@ const AppointmentSchedule: React.FC = () => {
       
       <Card>
         <Card.Body>
-          <StyledForm onSubmit={handleSubmit}>
+          <StyledForm submitHandler={handleSubmit}>
             <FormSection>
               <SectionTitle>Patient Information</SectionTitle>
               <Form.Group>
@@ -339,14 +372,8 @@ const AppointmentSchedule: React.FC = () => {
                   value={selectedPatientId}
                   onChange={(e) => setSelectedPatientId(e.target.value)}
                   disabled={!!patientId}
-                >
-                  <option value="">Select a patient</option>
-                  {patients.map(patient => (
-                    <option key={patient.id} value={patient.id}>
-                      {getPatientName(patient)}
-                    </option>
-                  ))}
-                </Select>
+                  options={[{ value: "", label: "Select a patient" }, ...patientOptions]}
+                />
                 {formErrors.patientId && <ErrorText>{formErrors.patientId}</ErrorText>}
               </Form.Group>
             </FormSection>
@@ -360,14 +387,8 @@ const AppointmentSchedule: React.FC = () => {
                   name="providerId"
                   value={formData.providerId}
                   onChange={handleInputChange}
-                >
-                  <option value="">Select a provider</option>
-                  {providers.map(provider => (
-                    <option key={provider.id} value={provider.id}>
-                      {provider.name} ({provider.speciality})
-                    </option>
-                  ))}
-                </Select>
+                  options={[{ value: "", label: "Select a provider" }, ...providerOptions]}
+                />
                 {formErrors.providerId && <ErrorText>{formErrors.providerId}</ErrorText>}
               </Form.Group>
               
@@ -378,14 +399,8 @@ const AppointmentSchedule: React.FC = () => {
                   name="appointmentType"
                   value={formData.appointmentType}
                   onChange={handleInputChange}
-                >
-                  <option value="">Select type</option>
-                  <option value="Check-up">Check-up</option>
-                  <option value="Follow-up">Follow-up</option>
-                  <option value="New Patient Consultation">New Patient Consultation</option>
-                  <option value="Medication Review">Medication Review</option>
-                  <option value="Specialist Referral">Specialist Referral</option>
-                </Select>
+                  options={appointmentTypeOptions}
+                />
                 {formErrors.appointmentType && <ErrorText>{formErrors.appointmentType}</ErrorText>}
               </Form.Group>
               
@@ -410,12 +425,8 @@ const AppointmentSchedule: React.FC = () => {
                     name="duration"
                     value={formData.duration}
                     onChange={handleInputChange}
-                  >
-                    <option value="15">15 minutes</option>
-                    <option value="30">30 minutes</option>
-                    <option value="45">45 minutes</option>
-                    <option value="60">60 minutes</option>
-                  </Select>
+                    options={durationOptions}
+                  />
                 </Form.Group>
               </FormRow>
               
@@ -437,30 +448,6 @@ const AppointmentSchedule: React.FC = () => {
                   </TimeSlotContainer>
                   {timeSlots.length === 0 && <p>No time slots available for the selected date and provider.</p>}
                   {formErrors.time && <ErrorText>{formErrors.time}</ErrorText>}
-                </Form.Group>
-              )}
-              
-              <Form.Group>
-                <Form.Label htmlFor="notes">Notes</Form.Label>
-                <NotesTextarea
-                  id="notes"
-                  name="notes"
-                  value={formData.notes}
-                  onChange={handleInputChange}
-                  placeholder="Add any special instructions or notes..."
-                />
-              </Form.Group>
-            </FormSection>
-            
-            <div style={{ gridColumn: '1 / -1', marginTop: '1rem' }}>
-              <Button type="submit" disabled={isLoading} style={{ minWidth: '120px' }}>
-                {isLoading ? 'Scheduling...' : 'Schedule Appointment'}
-              </Button>
-            </div>
-          </StyledForm>
-        </Card.Body>
-      </Card>
-    </PageContainer>
                 </Form.Group>
               )}
               

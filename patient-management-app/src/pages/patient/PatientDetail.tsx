@@ -1,12 +1,15 @@
 import React from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import styled from '@emotion/styled';
-import { PatientBanner } from '@ltht-react/patient-banner';
-import { FlagDetail } from '@ltht-react/flag-detail';
-import { AllergyDetail } from '@ltht-react/allergy-detail';
-import { Card } from '@ltht-react/card';
-import { Button } from '@ltht-react/button';
-import { DescriptionList } from '@ltht-react/description-list';
+// Import wrapper components from the central wrapper location
+import {
+  PatientBanner,
+  FlagDetail,
+  AllergyDetail,
+  Card,
+  Button,
+  DescriptionList
+} from '../../components/ltht-wrappers';
 import { usePatient } from '../../contexts/PatientContext';
 import LoadingSpinner from '../../components/common/LoadingSpinner';
 import ErrorMessage from '../../components/common/ErrorMessage';
@@ -189,9 +192,6 @@ const PatientDetail: React.FC = () => {
               </Card.Body>
             </DetailCard>
           )}
-        </>
-      )}
-    </PageContainer>
         </>
       )}
     </PageContainer>

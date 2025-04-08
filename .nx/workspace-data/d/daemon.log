@@ -1,0 +1,12 @@
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:47:22.396Z - Started listening on: /var/folders/kj/0_5dxj196zl8s6zvpdl4jg8w0000gn/T/c43aa8f48fae1d999863/d.sock
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:47:22.410Z - [WATCHER]: Subscribed to changes within: /Users/rodrigo/LTHT Complete/ltht-react (native)
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:47:22.413Z - Established a connection. Number of open connections: 1
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:47:22.414Z - Established a connection. Number of open connections: 2
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:47:22.417Z - Closed a connection. Number of open connections: 1
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:47:22.420Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:47:22.421Z - Done responding to the client Shutdown initiated
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:47:22.421Z - Handled FORCE_SHUTDOWN. Handling time: 1. Response time: 1.
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:47:22.422Z - Closed a connection. Number of open connections: 0
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:47:22.423Z - [WATCHER]: Stopping the watcher for /Users/rodrigo/LTHT Complete/ltht-react (sources)
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:47:22.423Z - [WATCHER]: Stopping the watcher for /Users/rodrigo/LTHT Complete/ltht-react (outputs)
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:47:22.424Z - Server stopped because: "Request to shutdown"

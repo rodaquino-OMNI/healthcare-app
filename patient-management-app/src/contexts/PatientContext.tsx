@@ -1,6 +1,9 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom';
 import { patientService } from '../services/api/patientService';
+
+// Access React APIs via namespace
+const { createContext, useContext, useState, useEffect } = React;
 
 // We'll use the FHIR Patient type from ltht-react/types when available
 // For now, define a basic interface

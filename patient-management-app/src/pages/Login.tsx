@@ -1,7 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import styled from '@emotion/styled';
 import { useAuth } from '../contexts/AuthContext';
+
+// Access React APIs via namespace
+const { useState } = React;
 
 // Styled components
 const LoginContainer = styled.div`

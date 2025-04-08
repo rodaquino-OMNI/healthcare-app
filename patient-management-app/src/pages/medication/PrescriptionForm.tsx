@@ -1,14 +1,20 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import styled from '@emotion/styled';
-import { Card } from '@ltht-react/card';
-import { Button } from '@ltht-react/button';
-import { Form } from '@ltht-react/form';
-import { Input } from '@ltht-react/input';
-import { Select } from '@ltht-react/select';
+// Import component wrappers from the central wrapper location
+import {
+  Card,
+  Button,
+  Form,
+  Input,
+  Select
+} from '../../components/ltht-wrappers';
 import { patientService } from '../../services/api/patientService';
 import LoadingSpinner from '../../components/common/LoadingSpinner';
 import ErrorMessage from '../../components/common/ErrorMessage';
+
+// Access React APIs via namespace
+const { useState, useEffect } = React;
 
 // Styled components
 const PageContainer = styled.div`
@@ -174,7 +180,7 @@ const PrescriptionForm: React.FC = () => {
     return Object.keys(errors).length === 0;
   };
   
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     
     if (!validateForm()) {
@@ -225,6 +231,19 @@ const PrescriptionForm: React.FC = () => {
     return `${name.given?.join(' ') || ''} ${name.family || ''}`.trim();
   };
   
+  // Create patient options for the Select component
+  const patientOptions = patients.map(patient => ({
+    value: patient.id,
+    label: getPatientName(patient)
+  }));
+  
+  // Create status options for the Select component
+  const statusOptions = [
+    { value: 'active', label: 'Active' },
+    { value: 'completed', label: 'Completed' },
+    { value: 'stopped', label: 'Stopped' }
+  ];
+  
   return (
     <PageContainer>
       <PageHeader>
@@ -238,24 +257,29 @@ const PrescriptionForm: React.FC = () => {
       
       <Card>
         <Card.Body>
-          <StyledForm onSubmit={handleSubmit}>
+          <StyledForm submitHandler={handleSubmit}>
             <FormSection>
               <SectionTitle>Patient Information</SectionTitle>
               <Form.Group>
                 <Form.Label htmlFor="patientId">Patient *</Form.Label>
-                <Select
-                  id="patientId"
-                  value={selectedPatientId}
-                  onChange={(e) => setSelectedPatientId(e.target.value)}
-                  disabled={!!patientId}
-                >
-                  <option value="">Select a patient</option>
-                  {patients.map(patient => (
-                    <option key={patient.id} value={patient.id}>
-                      {getPatientName(patient)}
-                    </option>
-                  ))}
-                </Select>
+                {patientId ? (
+                  // If patientId is provided through URL params, use a disabled select with the pre-selected patient
+                  <Select
+                    id="patientId"
+                    value={selectedPatientId}
+                    onChange={(e) => setSelectedPatientId(e.target.value)}
+                    disabled={true}
+                    options={patientOptions}
+                  />
+                ) : (
+                  // Otherwise, show all patients
+                  <Select
+                    id="patientId"
+                    value={selectedPatientId}
+                    onChange={(e) => setSelectedPatientId(e.target.value)}
+                    options={[{ value: "", label: "Select a patient" }, ...patientOptions]}
+                  />
+                )}
                 {formErrors.patientId && <ErrorText>{formErrors.patientId}</ErrorText>}
               </Form.Group>
             </FormSection>
@@ -331,11 +355,8 @@ const PrescriptionForm: React.FC = () => {
                   name="status"
                   value={formData.status}
                   onChange={handleInputChange}
-                >
-                  <option value="active">Active</option>
-                  <option value="completed">Completed</option>
-                  <option value="stopped">Stopped</option>
-                </Select>
+                  options={statusOptions}
+                />
               </Form.Group>
               
               <Form.Group>

@@ -1,12 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import styled from '@emotion/styled';
-import { Card } from '@ltht-react/card';
-import { List } from '@ltht-react/list';
+// Import wrapper components from the central wrapper location
+import { Card, List } from '../../components/ltht-wrappers';
 import { patientService } from '../../services/api/patientService';
 import PatientListItem from '../../components/patient/PatientListItem';
 import LoadingSpinner from '../../components/common/LoadingSpinner';
 import ErrorMessage from '../../components/common/ErrorMessage';
+
+// Access React APIs via namespace
+const { useState, useEffect } = React;
 
 // Styled components
 const PageContainer = styled.div`

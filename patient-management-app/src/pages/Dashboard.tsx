@@ -1,13 +1,42 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import styled from '@emotion/styled';
-import { Card } from '@ltht-react/card';
-import { List } from '@ltht-react/list';
+import { Card, List } from '../components/ltht-wrappers';
 import { patientService } from '../services/api/patientService';
-import { Patient } from '@ltht-react/types';
 import { useAuth } from '../contexts/AuthContext';
 import PatientListItem from '../components/patient/PatientListItem';
 import LoadingSpinner from '../components/common/LoadingSpinner';
 import ErrorMessage from '../components/common/ErrorMessage';
+
+// Access React hooks via namespace
+const { useState, useEffect } = React;
+
+// Define the Patient interface inline since it's not exported from patientService
+interface Patient {
+  id: string;
+  identifier?: Array<{
+    system: string;
+    value: string;
+  }>;
+  name?: Array<{
+    family?: string;
+    given?: string[];
+    use?: string;
+  }>;
+  gender?: string;
+  birthDate?: string;
+  address?: Array<{
+    line?: string[];
+    city?: string;
+    postalCode?: string;
+  }>;
+  telecom?: Array<{
+    system?: string;
+    value?: string;
+    use?: string;
+  }>;
+  flags?: any[];
+  allergies?: any[];
+}
 
 // Styled components
 const DashboardContainer = styled.div`
