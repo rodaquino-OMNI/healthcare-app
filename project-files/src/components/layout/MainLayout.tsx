@@ -1,5 +1,5 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+import { CustomOutlet } from '../common/router-components';
 import styled from '@emotion/styled';
 import Header from './Header';
 import Sidebar from './Sidebar';
@@ -21,7 +21,7 @@ const MainContent = styled.main`
   flex: 1;
   padding: 1.5rem;
   overflow-y: auto;
-  background-color: ${props => props.theme.colors.background.base};
+  background-color: #f8f9fa;
 `;
 
 /**
@@ -37,7 +37,7 @@ const MainLayout: React.FC = () => {
       <ContentContainer>
         <Sidebar />
         <MainContent>
-          <Outlet />
+          <CustomOutlet />
         </MainContent>
       </ContentContainer>
     </LayoutContainer>

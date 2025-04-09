@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { announceToScreenReader } from '../../utils/accessibility';
 
 interface TableColumn<T> {

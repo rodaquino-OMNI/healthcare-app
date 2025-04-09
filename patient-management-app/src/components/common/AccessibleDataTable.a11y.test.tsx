@@ -1,5 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
+import '@testing-library/jest-dom';
 import { axe, toHaveNoViolations } from 'jest-axe';
 import { AccessibleDataTable } from './AccessibleDataTable';
 
@@ -19,9 +20,9 @@ const testData: TestData[] = [
 ];
 
 const testColumns = [
-  { header: 'Name', accessor: 'name', sortable: true },
-  { header: 'Age', accessor: 'age', sortable: true },
-  { header: 'Status', accessor: 'status' },
+  { header: 'Name', accessor: 'name' as keyof TestData, sortable: true },
+  { header: 'Age', accessor: 'age' as keyof TestData, sortable: true },
+  { header: 'Status', accessor: 'status' as keyof TestData },
 ];
 
 describe('AccessibleDataTable', () => {

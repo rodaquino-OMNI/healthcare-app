@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { AppointmentService, Appointment } from '../services/AppointmentService';
 import { announceToScreenReader } from '../utils/accessibility';
 

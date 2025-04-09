@@ -3,7 +3,7 @@
 
 // React Router DOM
 declare module 'react-router-dom' {
-  import * as React from 'react';
+  import React from 'react';
 
   // Route component types
   export interface RouteProps {
