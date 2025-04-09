@@ -5,6 +5,8 @@ import { BrowserRouter } from 'react-router-dom';
 import { theme } from './theme';
 import App from './App';
 import './index.css';
+// Import our accessibility styles
+import './styles/index.css';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

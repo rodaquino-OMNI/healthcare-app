@@ -1,0 +1,197 @@
+/* Base accessibility styles */
+
+/* Focus styles - ensure clear focus indicators */
+:focus {
+    outline: 2px solid #2684FF;
+    outline-offset: 2px;
+}
+
+/* Support for Windows High Contrast Mode */
+@media screen and (-ms-high-contrast: active) {
+    :focus {
+        outline: 2px solid currentColor;
+    }
+}
+
+/* Focus visible only when using keyboard */
+:focus:not(:focus-visible) {
+    outline: none;
+}
+
+:focus-visible {
+    outline: 2px solid #2684FF;
+    outline-offset: 2px;
+}
+
+/* Screen reader only class - visually hidden but accessible to screen readers */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Ensure proper contrast for text */
+body {
+    color: #212529;
+    background-color: #fff;
+}
+
+/* Make links easily distinguishable */
+a {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+    color: #0a58ca;
+    text-decoration: underline;
+}
+
+/* Buttons should be clearly interactive */
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    cursor: pointer;
+}
+
+/* Skip link styles - positioned off-screen but appears on focus */
+.skip-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #2684FF;
+    color: white;
+    padding: 0.5rem 1rem;
+    z-index: 10000;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+}
+
+.skip-link:focus {
+    transform: translateY(0);
+}
+
+/* Error states that are accessible */
+.error,
+.error-message {
+    color: #dc3545;
+    background-color: #f8d7da;
+    border: 1px solid #f5c2c7;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+/* Form field focus styles */
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #2684FF;
+    box-shadow: 0 0 0 2px rgba(38, 132, 255, 0.25);
+}
+
+/* Disabled states */
+button:disabled,
+input:disabled,
+select:disabled,
+textarea:disabled {
+    cursor: not-allowed;
+    opacity: 0.65;
+}
+
+/* Announcer for screen readers */
+#screen-reader-announcer {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* Improve form field accessibility */
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 100%;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+/* Required field indicator */
+[aria-required="true"]+label::after,
+label:has(+ [aria-required="true"])::after {
+    content: " *";
+    color: #dc3545;
+}
+
+/* Invalid field styling */
+input:invalid,
+select:invalid,
+textarea:invalid {
+    border-color: #dc3545;
+}
+
+/* Table accessibility */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Ensure table headers are distinguishable */
+th {
+    text-align: left;
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+/* Ensure table cells have adequate padding */
+th,
+td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Responsive tables for small screens */
+@media (max-width: 768px) {
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}

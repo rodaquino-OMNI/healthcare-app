@@ -10,3 +10,202 @@
 [NX v20.7.1 Daemon Server] - 2025-04-07T23:47:22.423Z - [WATCHER]: Stopping the watcher for /Users/rodrigo/LTHT Complete/ltht-react (sources)
 [NX v20.7.1 Daemon Server] - 2025-04-07T23:47:22.423Z - [WATCHER]: Stopping the watcher for /Users/rodrigo/LTHT Complete/ltht-react (outputs)
 [NX v20.7.1 Daemon Server] - 2025-04-07T23:47:22.424Z - Server stopped because: "Request to shutdown"
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:12.466Z - Started listening on: /var/folders/kj/0_5dxj196zl8s6zvpdl4jg8w0000gn/T/c43aa8f48fae1d999863/d.sock
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:12.468Z - [WATCHER]: Subscribed to changes within: /Users/rodrigo/LTHT Complete/ltht-react (native)
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:12.470Z - Established a connection. Number of open connections: 1
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:12.470Z - Established a connection. Number of open connections: 2
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:12.471Z - Closed a connection. Number of open connections: 1
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:12.472Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:12.477Z - Time taken for 'loadSpecifiedNxPlugins' 0.709541999999999ms
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:12.528Z - [WATCHER]: Processing file changes in outputs
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:12.567Z - Time taken for 'Load Nx Plugin: /Users/rodrigo/LTHT Complete/ltht-react/node_modules/nx/src/plugins/package-json' 93.677209ms
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:12.567Z - Time taken for 'Load Nx Plugin: /Users/rodrigo/LTHT Complete/ltht-react/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 94.0515ms
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:12.581Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:12.581Z - [REQUEST]: 
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:12.581Z - [REQUEST]: 
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:12.587Z - Time taken for 'loadDefaultNxPlugins' 107.53304200000001ms
+/bin/sh: yarn: command not found
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.028Z - Time taken for 'build-project-configs' 430.89175ms
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.076Z - [SYNC]: collect registered sync generators
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.077Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.078Z - Time taken for 'total for creating and serializing project graph' 604.969708ms
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.080Z - Done responding to the client project-graph
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.080Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 605. Response time: 3.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.087Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.087Z - Done responding to the client handleRunPreTasksExecution
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.087Z - Handled PRE_TASKS_EXECUTION. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.087Z - Time taken for 'preTasksExecution' 0.2140829999999596ms
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.172Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.174Z - Done responding to the client handleHashTasks
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.174Z - Handled HASH_TASKS. Handling time: 51. Response time: 2.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.223Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.223Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.223Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 13. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.373Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.374Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.374Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 1.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.374Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.374Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.374Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.380Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.380Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.380Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.502Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.502Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.502Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.503Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.503Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.503Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.513Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.513Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.513Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.618Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.619Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.619Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 1.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.624Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.624Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.624Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.625Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.625Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.625Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.759Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.759Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.759Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.766Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.766Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.766Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.767Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.767Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.767Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.870Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.870Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.870Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.876Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.876Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.876Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.882Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.883Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.883Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 1.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.987Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.987Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.987Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.987Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.987Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.987Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.999Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.999Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:13.999Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.101Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.101Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.101Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.101Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.101Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.101Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.111Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.111Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.111Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.212Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.212Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.212Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.219Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.219Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.219Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.219Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.219Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.219Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.322Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.322Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.322Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.328Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.328Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.328Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.334Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.334Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.334Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.430Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.430Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.430Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.437Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.437Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.437Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.444Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.444Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.444Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.541Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.541Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.541Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.547Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.547Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.547Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.548Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.548Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.548Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.655Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.655Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.655Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.662Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.663Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.663Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 1.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.663Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.663Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.663Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.768Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.768Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.768Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.774Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.774Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.774Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.774Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.774Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.774Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.882Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.882Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.882Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.883Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.883Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.883Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.893Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.893Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.893Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.989Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.989Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.989Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.995Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.995Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:14.995Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.002Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.002Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.002Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.102Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.102Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.102Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.108Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.108Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.108Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.109Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.109Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.109Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.215Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.215Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.215Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.215Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.215Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.215Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.218Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.218Z - Done responding to the client recordOutputsHash
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.218Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.220Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.220Z - Done responding to the client handleRecordTaskRuns
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.220Z - Handled RECORD_TASK_RUNS. Handling time: 1. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.220Z - [REQUEST]: Responding to the client. handleGetFlakyTasks
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.220Z - Done responding to the client handleGetFlakyTasks
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.220Z - Handled GET_FLAKY_TASKS. Handling time: 0. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.235Z - [REQUEST]: Responding to the client. handleRunPostTasksExecution
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.235Z - Done responding to the client handleRunPostTasksExecution
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.235Z - Handled POST_TASKS_EXECUTION. Handling time: 1. Response time: 0.
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.235Z - Time taken for 'postTasksExecution' 0.08154200000035416ms
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:15.238Z - Closed a connection. Number of open connections: 0
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:51.856Z - [WATCHER]: Processing file changes in outputs
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:51.857Z - [WATCHER]: Stopping the watcher for /Users/rodrigo/LTHT Complete/ltht-react (sources)
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:51.857Z - [WATCHER]: Stopping the watcher for /Users/rodrigo/LTHT Complete/ltht-react (outputs)
+[NX v20.7.1 Daemon Server] - 2025-04-09T03:13:51.858Z - Server stopped because: "LOCK_FILES_CHANGED"

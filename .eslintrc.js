@@ -1,6 +1,14 @@
 module.exports = {
   parser: '@typescript-eslint/parser', // Specifies the ESLint parser
-  extends: ['airbnb', 'react-app', 'plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
+  extends: [
+    'react-app',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
+    'airbnb/base',
+    'airbnb/hooks',
+    'airbnb/rules/react',
+    'airbnb/rules/react-a11y'
+  ],
   plugins: ['@typescript-eslint', '@emotion'],
   parserOptions: {
     ecmaVersion: 2018,

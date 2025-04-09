@@ -4,6 +4,7 @@ import { AuthProvider } from './contexts/AuthContext';
 import { PatientProvider } from './contexts/PatientContext';
 import ProtectedRoute from './components/common/ProtectedRoute';
 import MainLayout from './components/layout/MainLayout';
+import { SkipLink } from './components/common/SkipLink';
 
 // Page imports
 import Dashboard from './pages/Dashboard';
@@ -26,6 +27,8 @@ import AppointmentSchedule from './pages/appointment/AppointmentSchedule';
 const App: React.FC = () => {
   return (
     <AuthProvider>
+      {/* Add skip link for keyboard accessibility */}
+      <SkipLink targetId="main-content" />
       <Routes>
         <Route path="/login" element={<Login />} />
         

@@ -37,6 +37,7 @@
   },
   "devDependencies": {
     "@types/jest": "^29.5.0",
+    "@types/jest-axe": "^3.5.9",
     "@types/node": "^18.0.0",
     "@types/react": "^18.2.38",
     "@types/react-dom": "^18.2.17",
@@ -48,6 +49,7 @@
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "glob": "^11.0.1",
+    "jest-axe": "^10.0.0",
     "prettier": "^2.0.0",
     "typescript": "^4.9.5"
   },
@@ -58,7 +60,10 @@
     "eject": "react-scripts eject",
     "lint": "eslint src --ext .ts,.tsx",
     "lint:fix": "eslint src --ext .ts,.tsx --fix",
-    "format": "prettier --write \"src/**/*.{ts,tsx}\""
+    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "audit:a11y": "pa11y-ci http://localhost:3000",
+    "test:a11y": "jest --testMatch='**/*.a11y.test.{ts,tsx}'",
+    "validate": "npm run lint && npm run test && npm run test:a11y"
   },
   "eslintConfig": {
     "extends": [

@@ -10,7 +10,7 @@ import {
   Button,
   DescriptionList
 } from '../../components/ltht-wrappers';
-import { usePatient } from '../../contexts/PatientContext';
+import { usePatients } from '../../contexts/PatientContext';
 import LoadingSpinner from '../../components/common/LoadingSpinner';
 import ErrorMessage from '../../components/common/ErrorMessage';
 
@@ -59,35 +59,37 @@ const DetailCard = styled(Card)`
  */
 const PatientDetail: React.FC = () => {
   const { patientId } = useParams<{ patientId: string }>();
-  const { patient, isLoading, error } = usePatient();
+  const { currentPatient: patient, isLoading, error, loadPatient } = usePatients();
   const navigate = useNavigate();
-  
+
+  // Load patient data when component mounts
+  React.useEffect(() => {
+    if (patientId) {
+      loadPatient(patientId);
+    }
+  }, [patientId, loadPatient]);
+
   const handleBackClick = () => {
     navigate('/patients');
   };
-  
+
   const handlePrescribeClick = () => {
     navigate(`/patients/${patientId}/prescribe`);
   };
-  
+
   const handleScheduleClick = () => {
     navigate(`/patients/${patientId}/schedule`);
   };
 
   if (isLoading) return <LoadingSpinner />;
-  if (error) return <ErrorMessage message={error} onRetry={() => window.location.reload()} />;
+  if (error) return <ErrorMessage message={error.message} onRetry={() => loadPatient(patientId)} />;
   if (!patient) return <ErrorMessage message="Patient not found" onRetry={() => navigate('/patients')} />;
-  
+
   // Format patient name
-  const patientName = patient.name && patient.name.length > 0
-    ? `${patient.name[0].given?.join(' ') || ''} ${patient.name[0].family || ''}`
+  const patientName = patient.firstName && patient.lastName
+    ? `${patient.firstName} ${patient.lastName}`
     : 'Unknown Patient';
 
-  // Get NHS number if available
-  const nhsNumber = patient.identifier
-    ? patient.identifier.find(id => id.system === 'https://fhir.nhs.uk/Id/nhs-number')?.value
-    : null;
-  
   return (
     <PageContainer>
       <PageHeader>
@@ -104,19 +106,19 @@ const PatientDetail: React.FC = () => {
           </Button>
         </ActionButtons>
       </PageHeader>
-      
+
       {patient && (
         <>
           <PatientBanner 
             patient={{
               fullName: patientName,
               gender: patient.gender || 'Unknown',
-              nhsNumber: nhsNumber || 'Unknown',
-              dateOfBirth: patient.birthDate ? new Date(patient.birthDate) : undefined,
+              nhsNumber: patient.id || 'Unknown',
+              dateOfBirth: patient.dateOfBirth ? new Date(patient.dateOfBirth) : undefined,
               gpDetails: {},
             }}
           />
-          
+
           <ContentGrid>
             <div>
               <SectionHeading>Patient Information</SectionHeading>
@@ -126,43 +128,36 @@ const PatientDetail: React.FC = () => {
                     <DescriptionList.Item term="Full Name">
                       {patientName}
                     </DescriptionList.Item>
-                    <DescriptionList.Item term="NHS Number">
-                      {nhsNumber || 'Not available'}
+                    <DescriptionList.Item term="ID">
+                      {patient.id || 'Not available'}
                     </DescriptionList.Item>
                     <DescriptionList.Item term="Date of Birth">
-                      {patient.birthDate || 'Not available'}
+                      {patient.dateOfBirth || 'Not available'}
                     </DescriptionList.Item>
                     <DescriptionList.Item term="Gender">
                       {patient.gender ? patient.gender.charAt(0).toUpperCase() + patient.gender.slice(1) : 'Not available'}
                     </DescriptionList.Item>
-                    {patient.address && patient.address.length > 0 && (
-                      <DescriptionList.Item term="Address">
-                        {patient.address[0].line?.join(', ')}{patient.address[0].city ? `, ${patient.address[0].city}` : ''}
-                        {patient.address[0].postalCode ? `, ${patient.address[0].postalCode}` : ''}
-                      </DescriptionList.Item>
-                    )}
-                    {patient.telecom && patient.telecom.length > 0 && (
-                      <DescriptionList.Item term="Contact">
-                        {patient.telecom.map((t, i) => (
-                          <div key={i}>
-                            {t.system && t.system.charAt(0).toUpperCase() + t.system.slice(1)}: {t.value}
-                            {t.use && ` (${t.use})`}
-                          </div>
-                        ))}
-                      </DescriptionList.Item>
-                    )}
+                    <DescriptionList.Item term="Address">
+                      {patient.address || 'Not available'}
+                    </DescriptionList.Item>
+                    <DescriptionList.Item term="Phone">
+                      {patient.phoneNumber || 'Not available'}
+                    </DescriptionList.Item>
+                    <DescriptionList.Item term="Email">
+                      {patient.email || 'Not available'}
+                    </DescriptionList.Item>
                   </DescriptionList>
                 </Card.Body>
               </DetailCard>
             </div>
-            
+
             <div>
               <SectionHeading>Allergies</SectionHeading>
               {patient.allergies && patient.allergies.length > 0 ? (
                 patient.allergies.map(allergy => (
-                  <DetailCard key={allergy.id}>
+                  <DetailCard key={allergy}>
                     <Card.Body>
-                      <AllergyDetail allergy={allergy} />
+                      <p>{allergy}</p>
                     </Card.Body>
                   </DetailCard>
                 ))
@@ -175,23 +170,13 @@ const PatientDetail: React.FC = () => {
               )}
             </div>
           </ContentGrid>
-          
-          <SectionHeading>Patient Flags</SectionHeading>
-          {patient.flags && patient.flags.length > 0 ? (
-            patient.flags.map(flag => (
-              <DetailCard key={flag.id}>
-                <Card.Body>
-                  <FlagDetail flag={flag} />
-                </Card.Body>
-              </DetailCard>
-            ))
-          ) : (
-            <DetailCard>
-              <Card.Body>
-                <p>No flags recorded for this patient.</p>
-              </Card.Body>
-            </DetailCard>
-          )}
+
+          <SectionHeading>Medical History</SectionHeading>
+          <DetailCard>
+            <Card.Body>
+              <p>{patient.medicalHistory || 'No medical history recorded for this patient.'}</p>
+            </Card.Body>
+          </DetailCard>
         </>
       )}
     </PageContainer>

@@ -1,0 +1,93 @@
+.table-responsive {
+    overflow-x: auto;
+    margin-bottom: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 1rem;
+}
+
+caption {
+    padding: 0.75rem;
+    caption-side: top;
+    font-weight: bold;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 0.75rem;
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.sortable {
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+
+.sortable:hover {
+    background-color: #e9ecef;
+}
+
+.sortable:focus {
+    outline: 2px solid #2684FF;
+    outline-offset: -2px;
+}
+
+.sort-icon {
+    margin-left: 0.25rem;
+}
+
+.loading-cell,
+.empty-cell {
+    text-align: center;
+    padding: 2rem;
+}
+
+.clickable-row {
+    cursor: pointer;
+}
+
+.clickable-row:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+.clickable-row:focus {
+    outline: 2px solid #2684FF;
+    outline-offset: -2px;
+}
+
+/* Accessibility - High contrast mode support */
+@media screen and (-ms-high-contrast: active) {
+
+    .sortable:focus,
+    .clickable-row:focus {
+        outline: 2px solid currentColor;
+    }
+
+    thead th {
+        border-bottom: 2px solid currentColor;
+    }
+
+    th,
+    td {
+        border-top: 1px solid currentColor;
+    }
+}

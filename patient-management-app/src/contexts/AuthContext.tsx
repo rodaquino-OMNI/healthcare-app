@@ -1,96 +1,76 @@
-import React from 'react';
-import { authService } from '../services/auth/authService';
+import * as React from 'react';
+import { apiClient } from '../services/api/apiClient';
 
-// Access React APIs via namespace
-const { createContext, useContext, useState, useEffect } = React;
-
-// User type definition
-interface User {
-  id: string;
-  name: string;
-  email: string;
-  role: string;
-}
-
-// Auth context state and methods
 interface AuthContextType {
   isAuthenticated: boolean;
-  user: User | null;
-  login: (username: string, password: string) => Promise<void>;
+  user: any | null;
+  login: (email: string, password: string) => Promise<void>;
   logout: () => void;
-  isLoading: boolean;
-  error: string | null;
 }
 
-// Create context with undefined default value
-const AuthContext = createContext<AuthContextType | undefined>(undefined);
+interface AuthResponse {
+  accessToken: string;
+  refreshToken: string;
+}
 
-// Provider component that wraps app and provides auth context
+const AuthContext = React.createContext<AuthContextType | undefined>(undefined);
+
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);
-  const [user, setUser] = useState<User | null>(null);
-  const [isLoading, setIsLoading] = useState<boolean>(true);
-  const [error, setError] = useState<string | null>(null);
+  const [isAuthenticated, setIsAuthenticated] = React.useState<boolean>(false);
+  const [user, setUser] = React.useState<any | null>(null);
 
-  useEffect(() => {
-    // Check for existing token and validate
-    const initializeAuth = async () => {
-      setIsLoading(true);
-      try {
-        const currentUser = await authService.getCurrentUser();
-        if (currentUser) {
-          setUser(currentUser);
-          setIsAuthenticated(true);
-        }
-      } catch (err) {
-        console.error('Auth initialization error:', err);
-        // Clear invalid auth state
-        authService.logout();
-      } finally {
-        setIsLoading(false);
-      }
-    };
+  React.useEffect(() => {
+    const token = localStorage.getItem('accessToken');
+    if (token) {
+      loadUserProfile();
+    }
 
-    initializeAuth();
+    window.addEventListener('auth:logout', handleLogout);
+    return () => window.removeEventListener('auth:logout', handleLogout);
   }, []);
 
-  const login = async (username: string, password: string) => {
-    setIsLoading(true);
-    setError(null);
+  const loadUserProfile = async () => {
     try {
-      const userData = await authService.login(username, password);
-      setUser(userData);
+      const response = await apiClient.get('/auth/profile');
+      setUser(response.data);
       setIsAuthenticated(true);
-    } catch (err: any) {
-      setError(err.message || 'Login failed');
-      throw err;
-    } finally {
-      setIsLoading(false);
+    } catch (error) {
+      handleLogout();
     }
   };
 
-  const logout = () => {
-    authService.logout();
+  const login = async (email: string, password: string) => {
+    try {
+      const response = await apiClient.post<AuthResponse>('/auth/login', { email, password });
+      const { accessToken, refreshToken } = response.data;
+      
+      localStorage.setItem('accessToken', accessToken);
+      localStorage.setItem('refreshToken', refreshToken);
+      
+      await loadUserProfile();
+    } catch (error) {
+      throw new Error('Login failed');
+    }
+  };
+
+  const handleLogout = () => {
+    localStorage.removeItem('accessToken');
+    localStorage.removeItem('refreshToken');
     setUser(null);
     setIsAuthenticated(false);
   };
 
   return (
-    <AuthContext.Provider
-      value={{ isAuthenticated, user, login, logout, isLoading, error }}
-    >
+    <AuthContext.Provider value={{ isAuthenticated, user, login, logout: handleLogout }}>
       {children}
     </AuthContext.Provider>
   );
 };
 
-// Custom hook to use the auth context
-export const useAuth = (): AuthContextType => {
-  const context = useContext(AuthContext);
+export const useAuth = () => {
+  const context = React.useContext(AuthContext);
   if (context === undefined) {
     throw new Error('useAuth must be used within an AuthProvider');
   }
   return context;
 };
-
-export default AuthContext;

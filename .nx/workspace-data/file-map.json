@@ -4,135 +4,808 @@
   "pathMappings": {},
   "nxJsonPlugins": [],
   "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".babelrc",
+        "hash": "6719487972184321338"
+      },
+      {
+        "file": ".eslintrc.js",
+        "hash": "15822749084723651354"
+      },
+      {
+        "file": ".github/workflows/lerna-version.yml",
+        "hash": "5315088757471915757"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "6258343485406661888"
+      },
+      {
+        "file": ".husky/.gitignore",
+        "hash": "10106645302852536800"
+      },
+      {
+        "file": ".husky/common.sh",
+        "hash": "5194138827896258697"
+      },
+      {
+        "file": ".husky/pre-push",
+        "hash": "6821566144887728197"
+      },
+      {
+        "file": ".npmignore",
+        "hash": "15017128897486042161"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "8971751130357465172"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "14670743726573620198"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "5221128533606677594"
+      },
+      {
+        "file": ".vscode/tasks.json",
+        "hash": "1915136431220223249"
+      },
+      {
+        "file": "JEST-MIGRATION-GUIDE.md",
+        "hash": "15804185381719523924"
+      },
+      {
+        "file": "README.md",
+        "hash": "6687176569967138240"
+      },
+      {
+        "file": "copy_files.sh",
+        "hash": "16588188443733002128"
+      },
+      {
+        "file": "healthcare-patient-management-implementation-plan.md",
+        "hash": "9191728854971006356"
+      },
+      {
+        "file": "jest-storybook-migration-plan.md",
+        "hash": "11859061302058804415"
+      },
+      {
+        "file": "jest.config.js",
+        "hash": "17716893762017131024"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "12454645570838784818"
+      },
+      {
+        "file": "nx.json",
+        "hash": "9381841161539578234"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "16461185266125704185"
+      },
+      {
+        "file": "package.json",
+        "hash": "4463944734620198164"
+      },
+      {
+        "file": "patient-management-app/.env",
+        "hash": "1227936020751386653"
+      },
+      {
+        "file": "patient-management-app/.env.testing",
+        "hash": "14411455541837954801"
+      },
+      {
+        "file": "patient-management-app/Dockerfile",
+        "hash": "9957982626039460550"
+      },
+      {
+        "file": "patient-management-app/README.md",
+        "hash": "13438313111811052261"
+      },
+      {
+        "file": "patient-management-app/TESTING-REPORT.md",
+        "hash": "1597691307381104972"
+      },
+      {
+        "file": "patient-management-app/TYPESCRIPT-ERRORS-FIXED-FINAL.md",
+        "hash": "17306832858415845188"
+      },
+      {
+        "file": "patient-management-app/TYPESCRIPT-ERRORS-FIXED-SUMMARY-FINAL.md",
+        "hash": "15441996734732009635"
+      },
+      {
+        "file": "patient-management-app/TYPESCRIPT-ERRORS-FIXED-SUMMARY.md",
+        "hash": "253712653401143261"
+      },
+      {
+        "file": "patient-management-app/TYPESCRIPT-ERRORS-FIXED.md",
+        "hash": "13313305557245825145"
+      },
+      {
+        "file": "patient-management-app/TYPESCRIPT-FIXES-IMPLEMENTATION.md",
+        "hash": "18161877828037952387"
+      },
+      {
+        "file": "patient-management-app/build/manifest.json",
+        "hash": "4244719170149540587"
+      },
+      {
+        "file": "patient-management-app/deploy-test-env.sh",
+        "hash": "11500739138956170029"
+      },
+      {
+        "file": "patient-management-app/deployment/DEPLOYMENT-GUIDE.md",
+        "hash": "16623562206503835115"
+      },
+      {
+        "file": "patient-management-app/deployment/mock-api/Dockerfile",
+        "hash": "6434760670251106810"
+      },
+      {
+        "file": "patient-management-app/deployment/mock-api/package.json",
+        "hash": "13123703132531070090"
+      },
+      {
+        "file": "patient-management-app/deployment/mock-api/server.js",
+        "hash": "6639811997355421703"
+      },
+      {
+        "file": "patient-management-app/deployment/nginx.conf",
+        "hash": "15796751080342929914"
+      },
+      {
+        "file": "patient-management-app/docker-compose.yml",
+        "hash": "6766390645112185359"
+      },
+      {
+        "file": "patient-management-app/error-log.md",
+        "hash": "9575268259981413772"
+      },
+      {
+        "file": "patient-management-app/fix-react-imports.js",
+        "hash": "4454878910255587983"
+      },
+      {
+        "file": "patient-management-app/package-lock.json",
+        "hash": "17749771793524242937"
+      },
+      {
+        "file": "patient-management-app/package.json",
+        "hash": "16551676354264577763"
+      },
+      {
+        "file": "patient-management-app/public/index.html",
+        "hash": "17327347030331520622"
+      },
+      {
+        "file": "patient-management-app/public/manifest.json",
+        "hash": "4244719170149540587"
+      },
+      {
+        "file": "patient-management-app/src/App.tsx",
+        "hash": "7885291749077634596"
+      },
+      {
+        "file": "patient-management-app/src/components/common/ErrorMessage.tsx",
+        "hash": "8487371841963956884"
+      },
+      {
+        "file": "patient-management-app/src/components/common/LoadingSpinner.tsx",
+        "hash": "13938584732801793145"
+      },
+      {
+        "file": "patient-management-app/src/components/common/ProtectedRoute.tsx",
+        "hash": "13075768388272723231"
+      },
+      {
+        "file": "patient-management-app/src/components/layout/Header.tsx",
+        "hash": "7522588571020998939"
+      },
+      {
+        "file": "patient-management-app/src/components/layout/MainLayout.tsx",
+        "hash": "2225040585278922630"
+      },
+      {
+        "file": "patient-management-app/src/components/layout/Sidebar.tsx",
+        "hash": "17694901242705235572"
+      },
+      {
+        "file": "patient-management-app/src/components/ltht-wrappers/index.tsx",
+        "hash": "10232298788680064726"
+      },
+      {
+        "file": "patient-management-app/src/components/patient/PatientListItem.tsx",
+        "hash": "2083667534998202747"
+      },
+      {
+        "file": "patient-management-app/src/components/styled/index.tsx",
+        "hash": "14957297387607664671"
+      },
+      {
+        "file": "patient-management-app/src/contexts/AuthContext.tsx",
+        "hash": "11977485335877929275"
+      },
+      {
+        "file": "patient-management-app/src/contexts/PatientContext.tsx",
+        "hash": "16005024932261242218"
+      },
+      {
+        "file": "patient-management-app/src/docs/COMPREHENSIVE-TYPESCRIPT-FIX-GUIDE.md",
+        "hash": "16891574869047798786"
+      },
+      {
+        "file": "patient-management-app/src/docs/LTHT-TYPESCRIPT-FIX-GUIDE.md",
+        "hash": "11265069064683387782"
+      },
+      {
+        "file": "patient-management-app/src/docs/TYPESCRIPT-ERROR-FIXES-GUIDE.md",
+        "hash": "1860502712482476927"
+      },
+      {
+        "file": "patient-management-app/src/docs/TYPESCRIPT-ERROR-FIXES-SUMMARY.md",
+        "hash": "6834615956361435724"
+      },
+      {
+        "file": "patient-management-app/src/import-test.tsx",
+        "hash": "9652617383154991064"
+      },
+      {
+        "file": "patient-management-app/src/index.css",
+        "hash": "16239763550644040459"
+      },
+      {
+        "file": "patient-management-app/src/index.tsx",
+        "hash": "5433157100817344100"
+      },
+      {
+        "file": "patient-management-app/src/pages/Dashboard.tsx",
+        "hash": "7336901517195768529"
+      },
+      {
+        "file": "patient-management-app/src/pages/Login.tsx",
+        "hash": "6064481459074868698"
+      },
+      {
+        "file": "patient-management-app/src/pages/appointment/AppointmentDetail.tsx",
+        "hash": "13908204383518014686"
+      },
+      {
+        "file": "patient-management-app/src/pages/appointment/AppointmentList.tsx",
+        "hash": "15144864303123329575"
+      },
+      {
+        "file": "patient-management-app/src/pages/appointment/AppointmentSchedule.tsx",
+        "hash": "1447129275295944797"
+      },
+      {
+        "file": "patient-management-app/src/pages/medication/MedicationDetail.tsx",
+        "hash": "17189390818068254057"
+      },
+      {
+        "file": "patient-management-app/src/pages/medication/MedicationList.tsx",
+        "hash": "16001698023873198907"
+      },
+      {
+        "file": "patient-management-app/src/pages/medication/PrescriptionForm.fixed.tsx",
+        "hash": "12630409572754602235"
+      },
+      {
+        "file": "patient-management-app/src/pages/medication/PrescriptionForm.tsx",
+        "hash": "13303124235835217963"
+      },
+      {
+        "file": "patient-management-app/src/pages/patient/PatientDetail.tsx",
+        "hash": "5614846458328019473"
+      },
+      {
+        "file": "patient-management-app/src/pages/patient/PatientList.tsx",
+        "hash": "12715273947313130486"
+      },
+      {
+        "file": "patient-management-app/src/services/api/patientService.ts",
+        "hash": "17686706366485598609"
+      },
+      {
+        "file": "patient-management-app/src/services/auth/__tests__/authService.test.ts",
+        "hash": "11289488665174958159"
+      },
+      {
+        "file": "patient-management-app/src/services/auth/authService.ts",
+        "hash": "8736436560655279416"
+      },
+      {
+        "file": "patient-management-app/src/test-jest-types.ts",
+        "hash": "3344699792636420290"
+      },
+      {
+        "file": "patient-management-app/src/theme.ts",
+        "hash": "16062157143654357668"
+      },
+      {
+        "file": "patient-management-app/src/types/component-composition-fixes.d.ts",
+        "hash": "16121345815506164939"
+      },
+      {
+        "file": "patient-management-app/src/types/direct-fix.d.ts",
+        "hash": "13011055709045975058"
+      },
+      {
+        "file": "patient-management-app/src/types/external-modules.d.ts",
+        "hash": "6775065122032537942"
+      },
+      {
+        "file": "patient-management-app/src/types/fix-all-errors.d.ts",
+        "hash": "7353070137062925147"
+      },
+      {
+        "file": "patient-management-app/src/types/global-fix.d.ts",
+        "hash": "6061542235939144481"
+      },
+      {
+        "file": "patient-management-app/src/types/global.d.ts",
+        "hash": "9973417824260188785"
+      },
+      {
+        "file": "patient-management-app/src/types/index.d.ts",
+        "hash": "4096887027255878510"
+      },
+      {
+        "file": "patient-management-app/src/types/ltht-components.d.ts",
+        "hash": "1938294984925224351"
+      },
+      {
+        "file": "patient-management-app/src/types/ltht-module-declarations.d.ts",
+        "hash": "4167006286890417615"
+      },
+      {
+        "file": "patient-management-app/src/types/missing-module-declarations.d.ts",
+        "hash": "11020188390007052316"
+      },
+      {
+        "file": "patient-management-app/src/types/module-resolution.d.ts",
+        "hash": "14326741003751751340"
+      },
+      {
+        "file": "patient-management-app/src/types/react-import-fixes.d.ts",
+        "hash": "14869657923086338893"
+      },
+      {
+        "file": "patient-management-app/src/types/react-module-fix.d.ts",
+        "hash": "16776118256113284495"
+      },
+      {
+        "file": "patient-management-app/src/types/react-types.d.ts",
+        "hash": "15744185787434433007"
+      },
+      {
+        "file": "patient-management-app/src/types/simple-fix.d.ts",
+        "hash": "15238261931558581897"
+      },
+      {
+        "file": "patient-management-app/src/types/styled-component-fixes.d.ts",
+        "hash": "9020148648549932626"
+      },
+      {
+        "file": "patient-management-app/src/types/styled-components-fix.d.ts",
+        "hash": "556856348499724188"
+      },
+      {
+        "file": "patient-management-app/src/types/styled-components.d.ts",
+        "hash": "18198022820791224704"
+      },
+      {
+        "file": "patient-management-app/src/types/theme-extensions.d.ts",
+        "hash": "3169733007980738818"
+      },
+      {
+        "file": "patient-management-app/src/utils/ltht-component-wrappers.ts",
+        "hash": "677143949116694881"
+      },
+      {
+        "file": "patient-management-app/src/utils/ltht-component-wrappers.tsx",
+        "hash": "16242437009330687863"
+      },
+      {
+        "file": "patient-management-app/src/utils/styled-component-helpers.tsx",
+        "hash": "9592939120709298423"
+      },
+      {
+        "file": "patient-management-app/src/utils/test-utils.ts",
+        "hash": "11831051646002374593"
+      },
+      {
+        "file": "patient-management-app/src/utils/typescript-regression-test.ts",
+        "hash": "7476237855911920552"
+      },
+      {
+        "file": "patient-management-app/test-plan.md",
+        "hash": "1288570297111180219"
+      },
+      {
+        "file": "patient-management-app/tsconfig.json",
+        "hash": "2577642990165399445"
+      },
+      {
+        "file": "project-files/README.md",
+        "hash": "11556517878647978601"
+      },
+      {
+        "file": "project-files/package.json",
+        "hash": "12233727860011886747"
+      },
+      {
+        "file": "project-files/src/App.tsx",
+        "hash": "7885291749077634596"
+      },
+      {
+        "file": "project-files/src/components/common/ErrorMessage.tsx",
+        "hash": "8487371841963956884"
+      },
+      {
+        "file": "project-files/src/components/common/LoadingSpinner.tsx",
+        "hash": "13938584732801793145"
+      },
+      {
+        "file": "project-files/src/components/common/ProtectedRoute.tsx",
+        "hash": "13075768388272723231"
+      },
+      {
+        "file": "project-files/src/components/layout/Header.tsx",
+        "hash": "7522588571020998939"
+      },
+      {
+        "file": "project-files/src/components/layout/MainLayout.tsx",
+        "hash": "2225040585278922630"
+      },
+      {
+        "file": "project-files/src/components/layout/Sidebar.tsx",
+        "hash": "17694901242705235572"
+      },
+      {
+        "file": "project-files/src/components/patient/PatientListItem.tsx",
+        "hash": "2083667534998202747"
+      },
+      {
+        "file": "project-files/src/contexts/AuthContext.tsx",
+        "hash": "14647699477381923607"
+      },
+      {
+        "file": "project-files/src/contexts/PatientContext.tsx",
+        "hash": "827860490587622185"
+      },
+      {
+        "file": "project-files/src/index.tsx",
+        "hash": "5433157100817344100"
+      },
+      {
+        "file": "project-files/src/pages/Dashboard.tsx",
+        "hash": "12165471195893310624"
+      },
+      {
+        "file": "project-files/src/pages/Login.tsx",
+        "hash": "6600727081799519600"
+      },
+      {
+        "file": "project-files/src/services/api/patientService.ts",
+        "hash": "17686706366485598609"
+      },
+      {
+        "file": "project-files/src/services/auth/authService.ts",
+        "hash": "8736436560655279416"
+      },
+      {
+        "file": "project-files/src/theme.ts",
+        "hash": "11232733411184485053"
+      },
+      {
+        "file": "scripts/createComponent.js",
+        "hash": "10942285196231085508"
+      },
+      {
+        "file": "scripts/jest-migration-helper.js",
+        "hash": "14352031223858505967"
+      },
+      {
+        "file": "scripts/setupTests.ts",
+        "hash": "8732295149160297110"
+      },
+      {
+        "file": "scripts/update-subpackage-jest-configs.js",
+        "hash": "4878742380791717334"
+      },
+      {
+        "file": "security-report.md",
+        "hash": "7690612738485296977"
+      },
+      {
+        "file": "ts-jest.config.js",
+        "hash": "3187903181334990538"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "17363724675132138748"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "1267966167363563485"
+      }
+    ],
     "projectFileMap": {
-      "@ltht-react/description-list": [
+      "@ltht-react/menu": [
         {
-          "file": "components/styled/description-list/CHANGELOG.md",
-          "hash": "14087491662954563453"
+          "file": "components/styled/menu/CHANGELOG.md",
+          "hash": "2906410385959755818"
         },
         {
-          "file": "components/styled/description-list/README.md",
-          "hash": "2833544713818545442"
+          "file": "components/styled/menu/README.md",
+          "hash": "9935152147014714516"
         },
         {
-          "file": "components/styled/description-list/package.json",
-          "hash": "11523241724823148891",
+          "file": "components/styled/menu/package.json",
+          "hash": "16932457771571288220",
           "deps": [
             "npm:@emotion/react",
             "npm:@emotion/styled",
-            "@ltht-react/styles",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:classnames",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/styled/description-list/src/atoms/description.tsx",
-          "hash": "1260959679260287452"
-        },
-        {
-          "file": "components/styled/description-list/src/atoms/term.tsx",
-          "hash": "10336615239331755491"
-        },
-        {
-          "file": "components/styled/description-list/src/index.tsx",
-          "hash": "13457280565064491925"
-        },
-        {
-          "file": "components/styled/description-list/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/card": [
-        {
-          "file": "components/styled/card/CHANGELOG.md",
-          "hash": "12755300028776932485"
-        },
-        {
-          "file": "components/styled/card/README.md",
-          "hash": "14244893276497581733"
-        },
-        {
-          "file": "components/styled/card/package.json",
-          "hash": "10183510646059220137",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/banner",
+            "@ltht-react/button",
             "@ltht-react/icon",
             "@ltht-react/styles",
+            "npm:focus-trap-react@10.2.3",
+            "npm:react",
+            "npm:react-popper"
+          ]
+        },
+        {
+          "file": "components/styled/menu/src/index.tsx",
+          "hash": "10282951804343635595"
+        },
+        {
+          "file": "components/styled/menu/src/molecules/action-menu.tsx",
+          "hash": "16137816275469790931"
+        },
+        {
+          "file": "components/styled/menu/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/allergy-summary": [
+        {
+          "file": "components/clinical/allergy-summary/CHANGELOG.md",
+          "hash": "11838803840735234367"
+        },
+        {
+          "file": "components/clinical/allergy-summary/README.md",
+          "hash": "4800428785199700808"
+        },
+        {
+          "file": "components/clinical/allergy-summary/package.json",
+          "hash": "4049967586952642141",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/icon",
+            "@ltht-react/list",
+            "@ltht-react/styles",
+            "@ltht-react/type-summary",
             "@ltht-react/types",
             "@ltht-react/utils",
-            "npm:classnames",
             "npm:react"
           ]
         },
         {
-          "file": "components/styled/card/src/atoms/banner.tsx",
-          "hash": "4509911521371871180"
+          "file": "components/clinical/allergy-summary/src/atoms/allergy-description.tsx",
+          "hash": "18391101904359105666"
         },
         {
-          "file": "components/styled/card/src/atoms/body.tsx",
-          "hash": "8305078028149400434"
+          "file": "components/clinical/allergy-summary/src/atoms/allergy-icon.tsx",
+          "hash": "13708927706845526341"
         },
         {
-          "file": "components/styled/card/src/atoms/footer.tsx",
-          "hash": "14397835332290524027"
+          "file": "components/clinical/allergy-summary/src/atoms/allergy-status.tsx",
+          "hash": "16992413314667360857"
         },
         {
-          "file": "components/styled/card/src/atoms/header.tsx",
-          "hash": "14792800151120570051"
+          "file": "components/clinical/allergy-summary/src/atoms/allergy-title.tsx",
+          "hash": "16247717482491541633"
         },
         {
-          "file": "components/styled/card/src/atoms/list-item.tsx",
-          "hash": "11711708771017068436"
+          "file": "components/clinical/allergy-summary/src/index.tsx",
+          "hash": "4154144375605952090"
         },
         {
-          "file": "components/styled/card/src/atoms/list.tsx",
-          "hash": "4519059522539030396"
+          "file": "components/clinical/allergy-summary/src/molecules/allergy-redacted.tsx",
+          "hash": "15749792878867496243"
         },
         {
-          "file": "components/styled/card/src/atoms/subtitle.tsx",
-          "hash": "15332353774582131948"
+          "file": "components/clinical/allergy-summary/src/organisms/allergy-summary.tsx",
+          "hash": "1777539268438580528"
         },
         {
-          "file": "components/styled/card/src/atoms/text.tsx",
-          "hash": "18097105779533125479"
-        },
-        {
-          "file": "components/styled/card/src/atoms/title.tsx",
-          "hash": "11746314440937754072"
-        },
-        {
-          "file": "components/styled/card/src/index.tsx",
-          "hash": "646375799589889054"
-        },
-        {
-          "file": "components/styled/card/tsconfig.json",
+          "file": "components/clinical/allergy-summary/tsconfig.json",
           "hash": "7615905302925360953"
         }
       ],
-      "@ltht-react/timeline": [
+      "@ltht-react/appointment-detail": [
         {
-          "file": "components/clinical/timeline/CHANGELOG.md",
-          "hash": "10193370721512237590"
+          "file": "components/clinical/appointment-detail/CHANGELOG.md",
+          "hash": "6662188521889515408"
         },
         {
-          "file": "components/clinical/timeline/README.md",
-          "hash": "17998232464712674144"
+          "file": "components/clinical/appointment-detail/README.md",
+          "hash": "15495722499489195787"
         },
         {
-          "file": "components/clinical/timeline/package.json",
-          "hash": "12622099156401268877",
+          "file": "components/clinical/appointment-detail/package.json",
+          "hash": "475607480535817421",
           "deps": [
+            "npm:@emotion/react",
             "npm:@emotion/styled",
+            "@ltht-react/styles",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/clinical/appointment-detail/src/index.tsx",
+          "hash": "12090994018594201493"
+        },
+        {
+          "file": "components/clinical/appointment-detail/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/root": [
+        {
+          "file": "packages/ltht-react/CHANGELOG.md",
+          "hash": "13223731569140419475"
+        },
+        {
+          "file": "packages/ltht-react/README.md",
+          "hash": "18004189575288089352"
+        },
+        {
+          "file": "packages/ltht-react/package.json",
+          "hash": "6350818537964715675",
+          "deps": [
+            "@ltht-react/admin-actions",
+            "@ltht-react/allergy-detail",
+            "@ltht-react/allergy-summary",
+            "@ltht-react/appointment-detail",
+            "@ltht-react/appointment-summary",
+            "@ltht-react/badge",
             "@ltht-react/banner",
             "@ltht-react/button",
+            "@ltht-react/card",
+            "@ltht-react/care-plan-detail",
+            "@ltht-react/care-plan-summary",
+            "@ltht-react/community-treatment-order-detail",
+            "@ltht-react/community-treatment-order-summary",
+            "@ltht-react/description-list",
+            "@ltht-react/diagnosis-detail",
+            "@ltht-react/diagnosis-summary",
+            "@ltht-react/document-summary",
+            "@ltht-react/eform",
+            "@ltht-react/flag-detail",
+            "@ltht-react/flag-summary",
+            "@ltht-react/form",
+            "@ltht-react/guidance-summary",
+            "@ltht-react/header",
             "@ltht-react/hooks",
+            "@ltht-react/hospital-stay-detail",
+            "@ltht-react/hospital-stay-summary",
             "@ltht-react/icon",
+            "@ltht-react/input",
+            "@ltht-react/involved-team-detail",
+            "@ltht-react/involved-team-summary",
+            "@ltht-react/list",
+            "@ltht-react/medication",
+            "@ltht-react/medication-detail",
+            "@ltht-react/medication-summary",
+            "@ltht-react/menu",
+            "@ltht-react/observation-detail",
+            "@ltht-react/observation-summary",
+            "@ltht-react/patient-banner",
+            "@ltht-react/plan-definition-editor",
+            "@ltht-react/problem",
+            "@ltht-react/questionnaire",
             "@ltht-react/select",
             "@ltht-react/styles",
+            "@ltht-react/table",
+            "@ltht-react/task",
+            "@ltht-react/timeline",
+            "@ltht-react/type-detail",
+            "@ltht-react/type-summary",
+            "@ltht-react/types",
+            "@ltht-react/utils"
+          ]
+        },
+        {
+          "file": "packages/ltht-react/src/index.ts",
+          "hash": "7179866149489468916"
+        },
+        {
+          "file": "packages/ltht-react/tsconfig.json",
+          "hash": "17358330501368742172"
+        }
+      ],
+      "@ltht-react/types": [
+        {
+          "file": "packages/types/CHANGELOG.md",
+          "hash": "5422269519067833362"
+        },
+        {
+          "file": "packages/types/README.md",
+          "hash": "127493218412992542"
+        },
+        {
+          "file": "packages/types/codegen.yml",
+          "hash": "4097118491069421639"
+        },
+        {
+          "file": "packages/types/package.json",
+          "hash": "16706461216346912061",
+          "deps": [
+            "npm:@graphql-codegen/cli",
+            "npm:@graphql-codegen/typescript",
+            "npm:graphql",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/types/src/atoms/graphql-types.ts",
+          "hash": "8653458706037059709"
+        },
+        {
+          "file": "packages/types/src/atoms/index.ts",
+          "hash": "7627688626414760755"
+        },
+        {
+          "file": "packages/types/src/atoms/local-types.ts",
+          "hash": "7967098907173096182"
+        },
+        {
+          "file": "packages/types/src/index.ts",
+          "hash": "1095974124884110423"
+        },
+        {
+          "file": "packages/types/tsconfig.json",
+          "hash": "15138491533014631465"
+        }
+      ],
+      "@ltht-react/questionnaire": [
+        {
+          "file": "components/clinical/questionnaire/CHANGELOG.md",
+          "hash": "11649139836128342869"
+        },
+        {
+          "file": "components/clinical/questionnaire/README.md",
+          "hash": "14753287510255505417"
+        },
+        {
+          "file": "components/clinical/questionnaire/index.d.ts",
+          "hash": "18415735921726693171"
+        },
+        {
+          "file": "components/clinical/questionnaire/package.json",
+          "hash": "2636187387916748032",
+          "deps": [
+            "npm:@bbob/preset-react",
+            "npm:@bbob/react",
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/hooks",
+            "@ltht-react/icon",
+            "@ltht-react/styles",
+            "@ltht-react/type-detail",
+            "@ltht-react/type-summary",
             "@ltht-react/types",
             "@ltht-react/utils",
             "npm:html-react-parser",
@@ -140,55 +813,200 @@
           ]
         },
         {
-          "file": "components/clinical/timeline/src/atoms/time-element.tsx",
-          "hash": "9008045026002329761"
+          "file": "components/clinical/questionnaire/src/atoms/author-info.tsx",
+          "hash": "4332927943811166995"
         },
         {
-          "file": "components/clinical/timeline/src/atoms/timeline-author.tsx",
-          "hash": "5909801270309208573"
+          "file": "components/clinical/questionnaire/src/atoms/title-info.tsx",
+          "hash": "17302711053794002848"
         },
         {
-          "file": "components/clinical/timeline/src/atoms/timeline-button.tsx",
-          "hash": "3449875004745737906"
+          "file": "components/clinical/questionnaire/src/index.tsx",
+          "hash": "7623318955047280454"
         },
         {
-          "file": "components/clinical/timeline/src/atoms/timeline-description.tsx",
-          "hash": "1256238258432921181"
+          "file": "components/clinical/questionnaire/src/molecules/question-block.tsx",
+          "hash": "3534330915782620611"
         },
         {
-          "file": "components/clinical/timeline/src/atoms/timeline-time.tsx",
-          "hash": "7067618735688921830"
+          "file": "components/clinical/questionnaire/src/molecules/question-group.tsx",
+          "hash": "16504835722745925768"
         },
         {
-          "file": "components/clinical/timeline/src/atoms/timeline-title-redacted.tsx",
-          "hash": "6089320136845478524"
+          "file": "components/clinical/questionnaire/src/molecules/redacted.tsx",
+          "hash": "9473450461582756094"
         },
         {
-          "file": "components/clinical/timeline/src/atoms/timeline-title.tsx",
-          "hash": "16149490823090367059"
+          "file": "components/clinical/questionnaire/src/organisms/questionnaire.tsx",
+          "hash": "7283545914743292315"
         },
         {
-          "file": "components/clinical/timeline/src/constants.ts",
-          "hash": "6563243537807751381"
+          "file": "components/clinical/questionnaire/tsconfig.json",
+          "hash": "11928156244999417258"
+        }
+      ],
+      "@ltht-react/diagnosis-detail": [
+        {
+          "file": "components/clinical/diagnosis-detail/CHANGELOG.md",
+          "hash": "17760746020636990571"
         },
         {
-          "file": "components/clinical/timeline/src/index.tsx",
-          "hash": "13841979981728123072"
+          "file": "components/clinical/diagnosis-detail/README.md",
+          "hash": "14298522412018632601"
         },
         {
-          "file": "components/clinical/timeline/src/molecules/timeline-item-redacted.tsx",
-          "hash": "9988220348925051435"
+          "file": "components/clinical/diagnosis-detail/package-lock.json",
+          "hash": "442456387451854632"
         },
         {
-          "file": "components/clinical/timeline/src/molecules/timeline-item.tsx",
-          "hash": "5828444621237977647"
+          "file": "components/clinical/diagnosis-detail/package.json",
+          "hash": "18178728716564613105",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/hooks",
+            "@ltht-react/questionnaire",
+            "@ltht-react/styles",
+            "@ltht-react/type-detail",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
         },
         {
-          "file": "components/clinical/timeline/src/organisms/timeline.tsx",
-          "hash": "6106324308114193096"
+          "file": "components/clinical/diagnosis-detail/src/constants.ts",
+          "hash": "1335651620911675510"
         },
         {
-          "file": "components/clinical/timeline/tsconfig.json",
+          "file": "components/clinical/diagnosis-detail/src/index.tsx",
+          "hash": "1682577113405128067"
+        },
+        {
+          "file": "components/clinical/diagnosis-detail/src/organisms/diagnosis-detail.tsx",
+          "hash": "1871061137230743790"
+        },
+        {
+          "file": "components/clinical/diagnosis-detail/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/diagnosis-summary": [
+        {
+          "file": "components/clinical/diagnosis-summary/CHANGELOG.md",
+          "hash": "3331884936532008754"
+        },
+        {
+          "file": "components/clinical/diagnosis-summary/README.md",
+          "hash": "10784102233779240038"
+        },
+        {
+          "file": "components/clinical/diagnosis-summary/package.json",
+          "hash": "6673074126687369915",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/button",
+            "@ltht-react/hooks",
+            "@ltht-react/icon",
+            "@ltht-react/list",
+            "@ltht-react/styles",
+            "@ltht-react/type-summary",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/clinical/diagnosis-summary/src/atoms/diagnosis-category.tsx",
+          "hash": "7127029801027258876"
+        },
+        {
+          "file": "components/clinical/diagnosis-summary/src/atoms/diagnosis-data-source.tsx",
+          "hash": "17026482434741921775"
+        },
+        {
+          "file": "components/clinical/diagnosis-summary/src/atoms/diagnosis-onset-estimated.tsx",
+          "hash": "14462717286131307780"
+        },
+        {
+          "file": "components/clinical/diagnosis-summary/src/atoms/diagnosis-title.tsx",
+          "hash": "6249622239667641287"
+        },
+        {
+          "file": "components/clinical/diagnosis-summary/src/constants.ts",
+          "hash": "15265963544382495967"
+        },
+        {
+          "file": "components/clinical/diagnosis-summary/src/index.tsx",
+          "hash": "1913121964893945916"
+        },
+        {
+          "file": "components/clinical/diagnosis-summary/src/molecules/diagnosis-redacted.tsx",
+          "hash": "12337951304545363918"
+        },
+        {
+          "file": "components/clinical/diagnosis-summary/src/organisms/diagnosis-summary.tsx",
+          "hash": "13386147228580584801"
+        },
+        {
+          "file": "components/clinical/diagnosis-summary/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/document-summary": [
+        {
+          "file": "components/clinical/document-summary/CHANGELOG.md",
+          "hash": "1682656516823098903"
+        },
+        {
+          "file": "components/clinical/document-summary/README.md",
+          "hash": "17256161779779263653"
+        },
+        {
+          "file": "components/clinical/document-summary/package.json",
+          "hash": "14933133514544086811",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/icon",
+            "@ltht-react/list",
+            "@ltht-react/styles",
+            "@ltht-react/type-summary",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/clinical/document-summary/src/atoms/document-date.tsx",
+          "hash": "17437663915899046794"
+        },
+        {
+          "file": "components/clinical/document-summary/src/atoms/document-description.tsx",
+          "hash": "7337976158391184144"
+        },
+        {
+          "file": "components/clinical/document-summary/src/atoms/document-source.tsx",
+          "hash": "11086697207014233316"
+        },
+        {
+          "file": "components/clinical/document-summary/src/atoms/document-status.tsx",
+          "hash": "13077588796277720472"
+        },
+        {
+          "file": "components/clinical/document-summary/src/index.tsx",
+          "hash": "7837081919342284307"
+        },
+        {
+          "file": "components/clinical/document-summary/src/molecules/document-redacted.tsx",
+          "hash": "5096004848284193322"
+        },
+        {
+          "file": "components/clinical/document-summary/src/organisms/document-summary.tsx",
+          "hash": "4547338266308104762"
+        },
+        {
+          "file": "components/clinical/document-summary/tsconfig.json",
           "hash": "7615905302925360953"
         }
       ],
@@ -235,164 +1053,6 @@
         },
         {
           "file": "components/clinical/admin-actions/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/task": [
-        {
-          "file": "components/clinical/task/CHANGELOG.md",
-          "hash": "7930380277453800891"
-        },
-        {
-          "file": "components/clinical/task/README.md",
-          "hash": "13947620775876136205"
-        },
-        {
-          "file": "components/clinical/task/package.json",
-          "hash": "13839251529493657256",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/hooks",
-            "@ltht-react/icon",
-            "@ltht-react/menu",
-            "@ltht-react/styles",
-            "@ltht-react/type-summary",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/clinical/task/src/atoms/task-description.tsx",
-          "hash": "6711733162678912347"
-        },
-        {
-          "file": "components/clinical/task/src/atoms/task-status.tsx",
-          "hash": "6293950713114010109"
-        },
-        {
-          "file": "components/clinical/task/src/atoms/task-users.tsx",
-          "hash": "13957652944185687937"
-        },
-        {
-          "file": "components/clinical/task/src/index.tsx",
-          "hash": "11578910884172487536"
-        },
-        {
-          "file": "components/clinical/task/src/molecules/task-redacted.tsx",
-          "hash": "15552777923853683250"
-        },
-        {
-          "file": "components/clinical/task/src/organisms/task.tsx",
-          "hash": "9198135310218629158"
-        },
-        {
-          "file": "components/clinical/task/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/problem": [
-        {
-          "file": "components/styled/problem/CHANGELOG.md",
-          "hash": "4675429310724029595"
-        },
-        {
-          "file": "components/styled/problem/README.md",
-          "hash": "7914230047463987290"
-        },
-        {
-          "file": "components/styled/problem/package.json",
-          "hash": "8625013364509185785",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/icon",
-            "@ltht-react/styles",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/styled/problem/src/atoms/problem-message.tsx",
-          "hash": "3347318413166625029"
-        },
-        {
-          "file": "components/styled/problem/src/index.tsx",
-          "hash": "9232326960759867735"
-        },
-        {
-          "file": "components/styled/problem/src/molecules/problem-summary.tsx",
-          "hash": "14482964750225682600"
-        },
-        {
-          "file": "components/styled/problem/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/allergy-detail": [
-        {
-          "file": "components/clinical/allergy-detail/CHANGELOG.md",
-          "hash": "14907607492712927801"
-        },
-        {
-          "file": "components/clinical/allergy-detail/README.md",
-          "hash": "15718687808207082779"
-        },
-        {
-          "file": "components/clinical/allergy-detail/package.json",
-          "hash": "88211234549487918",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/description-list",
-            "@ltht-react/styles",
-            "@ltht-react/type-detail",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/clinical/allergy-detail/src/atoms/allergy-onset-detail.tsx",
-          "hash": "8355657946468354332"
-        },
-        {
-          "file": "components/clinical/allergy-detail/src/index.tsx",
-          "hash": "6213941027012847391"
-        },
-        {
-          "file": "components/clinical/allergy-detail/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/banner": [
-        {
-          "file": "components/styled/banner/CHANGELOG.md",
-          "hash": "4676250074070117041"
-        },
-        {
-          "file": "components/styled/banner/README.md",
-          "hash": "9135333459327892409"
-        },
-        {
-          "file": "components/styled/banner/package.json",
-          "hash": "16074149928307429411",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/icon",
-            "@ltht-react/styles",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/styled/banner/src/index.tsx",
-          "hash": "6281182749474992078"
-        },
-        {
-          "file": "components/styled/banner/tsconfig.json",
           "hash": "7615905302925360953"
         }
       ],
@@ -475,227 +1135,24 @@
           "hash": "7615905302925360953"
         }
       ],
-      "@ltht-react/observation-summary": [
+      "@ltht-react/task": [
         {
-          "file": "components/clinical/observation-summary/CHANGELOG.md",
-          "hash": "323773109144506544"
+          "file": "components/clinical/task/CHANGELOG.md",
+          "hash": "7930380277453800891"
         },
         {
-          "file": "components/clinical/observation-summary/README.md",
-          "hash": "14634664695638341600"
+          "file": "components/clinical/task/README.md",
+          "hash": "13947620775876136205"
         },
         {
-          "file": "components/clinical/observation-summary/package.json",
-          "hash": "11987484019452577262",
+          "file": "components/clinical/task/package.json",
+          "hash": "13839251529493657256",
           "deps": [
             "npm:@emotion/react",
             "npm:@emotion/styled",
-            "@ltht-react/list",
-            "@ltht-react/styles",
-            "@ltht-react/type-summary",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/clinical/observation-summary/src/atoms/observation-status.tsx",
-          "hash": "10669665829925524162"
-        },
-        {
-          "file": "components/clinical/observation-summary/src/atoms/observation-value.tsx",
-          "hash": "16983506170626768258"
-        },
-        {
-          "file": "components/clinical/observation-summary/src/index.tsx",
-          "hash": "9393353433848974954"
-        },
-        {
-          "file": "components/clinical/observation-summary/src/molecules/observation-redacted.tsx",
-          "hash": "7351036471650156342"
-        },
-        {
-          "file": "components/clinical/observation-summary/src/organisms/observation-summary-item.tsx",
-          "hash": "4433104061223843048"
-        },
-        {
-          "file": "components/clinical/observation-summary/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/guidance-summary": [
-        {
-          "file": "components/clinical/guidance-summary/CHANGELOG.md",
-          "hash": "13240650888878366695"
-        },
-        {
-          "file": "components/clinical/guidance-summary/README.md",
-          "hash": "9102920746916124469"
-        },
-        {
-          "file": "components/clinical/guidance-summary/package.json",
-          "hash": "1273801215494895277",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/list",
-            "@ltht-react/styles",
-            "@ltht-react/type-summary",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/clinical/guidance-summary/src/index.tsx",
-          "hash": "5640582058611886461"
-        },
-        {
-          "file": "components/clinical/guidance-summary/src/molecules/guidance-redacted.tsx",
-          "hash": "18292724824216796468"
-        },
-        {
-          "file": "components/clinical/guidance-summary/src/organisms/guidance-summary.tsx",
-          "hash": "16727124147073187802"
-        },
-        {
-          "file": "components/clinical/guidance-summary/tsconfig.json",
-          "hash": "4959511478909138773"
-        }
-      ],
-      "@ltht-react/header": [
-        {
-          "file": "components/styled/header/CHANGELOG.md",
-          "hash": "8482726725484295598"
-        },
-        {
-          "file": "components/styled/header/README.md",
-          "hash": "2651804742800409879"
-        },
-        {
-          "file": "components/styled/header/package.json",
-          "hash": "1348077067933610435",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/styles",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/styled/header/src/atoms/index.ts",
-          "hash": "10254243700754382437"
-        },
-        {
-          "file": "components/styled/header/src/atoms/page-header.tsx",
-          "hash": "4325950269787434790"
-        },
-        {
-          "file": "components/styled/header/src/atoms/sub-header.tsx",
-          "hash": "15174131853426581437"
-        },
-        {
-          "file": "components/styled/header/src/index.tsx",
-          "hash": "1095974124884110423"
-        },
-        {
-          "file": "components/styled/header/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/root": [
-        {
-          "file": "packages/ltht-react/CHANGELOG.md",
-          "hash": "13223731569140419475"
-        },
-        {
-          "file": "packages/ltht-react/README.md",
-          "hash": "18004189575288089352"
-        },
-        {
-          "file": "packages/ltht-react/package.json",
-          "hash": "6350818537964715675",
-          "deps": [
-            "@ltht-react/admin-actions",
-            "@ltht-react/allergy-detail",
-            "@ltht-react/allergy-summary",
-            "@ltht-react/appointment-detail",
-            "@ltht-react/appointment-summary",
-            "@ltht-react/badge",
-            "@ltht-react/banner",
-            "@ltht-react/button",
-            "@ltht-react/card",
-            "@ltht-react/care-plan-detail",
-            "@ltht-react/care-plan-summary",
-            "@ltht-react/community-treatment-order-detail",
-            "@ltht-react/community-treatment-order-summary",
-            "@ltht-react/description-list",
-            "@ltht-react/diagnosis-detail",
-            "@ltht-react/diagnosis-summary",
-            "@ltht-react/document-summary",
-            "@ltht-react/eform",
-            "@ltht-react/flag-detail",
-            "@ltht-react/flag-summary",
-            "@ltht-react/form",
-            "@ltht-react/guidance-summary",
-            "@ltht-react/header",
             "@ltht-react/hooks",
-            "@ltht-react/hospital-stay-detail",
-            "@ltht-react/hospital-stay-summary",
             "@ltht-react/icon",
-            "@ltht-react/input",
-            "@ltht-react/involved-team-detail",
-            "@ltht-react/involved-team-summary",
-            "@ltht-react/list",
-            "@ltht-react/medication",
-            "@ltht-react/medication-detail",
-            "@ltht-react/medication-summary",
             "@ltht-react/menu",
-            "@ltht-react/observation-detail",
-            "@ltht-react/observation-summary",
-            "@ltht-react/patient-banner",
-            "@ltht-react/plan-definition-editor",
-            "@ltht-react/problem",
-            "@ltht-react/questionnaire",
-            "@ltht-react/select",
-            "@ltht-react/styles",
-            "@ltht-react/table",
-            "@ltht-react/task",
-            "@ltht-react/timeline",
-            "@ltht-react/type-detail",
-            "@ltht-react/type-summary",
-            "@ltht-react/types",
-            "@ltht-react/utils"
-          ]
-        },
-        {
-          "file": "packages/ltht-react/src/index.ts",
-          "hash": "7179866149489468916"
-        },
-        {
-          "file": "packages/ltht-react/tsconfig.json",
-          "hash": "17358330501368742172"
-        }
-      ],
-      "@ltht-react/document-summary": [
-        {
-          "file": "components/clinical/document-summary/CHANGELOG.md",
-          "hash": "1682656516823098903"
-        },
-        {
-          "file": "components/clinical/document-summary/README.md",
-          "hash": "17256161779779263653"
-        },
-        {
-          "file": "components/clinical/document-summary/package.json",
-          "hash": "14933133514544086811",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/icon",
-            "@ltht-react/list",
             "@ltht-react/styles",
             "@ltht-react/type-summary",
             "@ltht-react/types",
@@ -704,1328 +1161,31 @@
           ]
         },
         {
-          "file": "components/clinical/document-summary/src/atoms/document-date.tsx",
-          "hash": "17437663915899046794"
+          "file": "components/clinical/task/src/atoms/task-description.tsx",
+          "hash": "6711733162678912347"
         },
         {
-          "file": "components/clinical/document-summary/src/atoms/document-description.tsx",
-          "hash": "7337976158391184144"
+          "file": "components/clinical/task/src/atoms/task-status.tsx",
+          "hash": "6293950713114010109"
         },
         {
-          "file": "components/clinical/document-summary/src/atoms/document-source.tsx",
-          "hash": "11086697207014233316"
+          "file": "components/clinical/task/src/atoms/task-users.tsx",
+          "hash": "13957652944185687937"
         },
         {
-          "file": "components/clinical/document-summary/src/atoms/document-status.tsx",
-          "hash": "13077588796277720472"
+          "file": "components/clinical/task/src/index.tsx",
+          "hash": "11578910884172487536"
         },
         {
-          "file": "components/clinical/document-summary/src/index.tsx",
-          "hash": "7837081919342284307"
+          "file": "components/clinical/task/src/molecules/task-redacted.tsx",
+          "hash": "15552777923853683250"
         },
         {
-          "file": "components/clinical/document-summary/src/molecules/document-redacted.tsx",
-          "hash": "5096004848284193322"
+          "file": "components/clinical/task/src/organisms/task.tsx",
+          "hash": "9198135310218629158"
         },
         {
-          "file": "components/clinical/document-summary/src/organisms/document-summary.tsx",
-          "hash": "4547338266308104762"
-        },
-        {
-          "file": "components/clinical/document-summary/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/flag-detail": [
-        {
-          "file": "components/clinical/flag-detail/CHANGELOG.md",
-          "hash": "9936949668940756085"
-        },
-        {
-          "file": "components/clinical/flag-detail/README.md",
-          "hash": "11428014957416231208"
-        },
-        {
-          "file": "components/clinical/flag-detail/package.json",
-          "hash": "14336419217614529831",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/button",
-            "@ltht-react/styles",
-            "@ltht-react/type-detail",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/clinical/flag-detail/src/index.tsx",
-          "hash": "2212135795200102511"
-        },
-        {
-          "file": "components/clinical/flag-detail/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/hospital-stay-summary": [
-        {
-          "file": "components/clinical/hospital-stay-summary/CHANGELOG.md",
-          "hash": "9806163646616502336"
-        },
-        {
-          "file": "components/clinical/hospital-stay-summary/README.md",
-          "hash": "13522977501635625912"
-        },
-        {
-          "file": "components/clinical/hospital-stay-summary/package.json",
-          "hash": "5001239586278133898",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/list",
-            "@ltht-react/styles",
-            "@ltht-react/type-summary",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:moment",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/clinical/hospital-stay-summary/src/atoms/admission-length-of-stay.tsx",
-          "hash": "5795488232793526459"
-        },
-        {
-          "file": "components/clinical/hospital-stay-summary/src/atoms/admission-period-summary.tsx",
-          "hash": "286510446541643614"
-        },
-        {
-          "file": "components/clinical/hospital-stay-summary/src/atoms/hospital-stay-description.tsx",
-          "hash": "2401808589251290094"
-        },
-        {
-          "file": "components/clinical/hospital-stay-summary/src/atoms/hospital-stay-service-provider.tsx",
-          "hash": "4789606200014254662"
-        },
-        {
-          "file": "components/clinical/hospital-stay-summary/src/index.tsx",
-          "hash": "2452962743580409200"
-        },
-        {
-          "file": "components/clinical/hospital-stay-summary/src/molecules/admission-redacted.tsx",
-          "hash": "6856704368190938509"
-        },
-        {
-          "file": "components/clinical/hospital-stay-summary/src/molecules/hospital-stay-redacted.tsx",
-          "hash": "9619326210507531744"
-        },
-        {
-          "file": "components/clinical/hospital-stay-summary/src/organisms/admission-summary.tsx",
-          "hash": "14855438146116267945"
-        },
-        {
-          "file": "components/clinical/hospital-stay-summary/src/organisms/hospital-stay-summary.tsx",
-          "hash": "14696985418794113436"
-        },
-        {
-          "file": "components/clinical/hospital-stay-summary/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/icon": [
-        {
-          "file": "components/styled/icon/CHANGELOG.md",
-          "hash": "2763710885562284922"
-        },
-        {
-          "file": "components/styled/icon/README.md",
-          "hash": "6150600523695356045"
-        },
-        {
-          "file": "components/styled/icon/package.json",
-          "hash": "3621837057376371552",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "npm:@fortawesome/fontawesome-svg-core",
-            "npm:@fortawesome/free-regular-svg-icons",
-            "npm:@fortawesome/free-solid-svg-icons",
-            "npm:@fortawesome/react-fontawesome",
-            "@ltht-react/styles",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/styled/icon/src/atoms/styled-icon.tsx",
-          "hash": "6582577565954727407"
-        },
-        {
-          "file": "components/styled/icon/src/index.tsx",
-          "hash": "4741134534129287"
-        },
-        {
-          "file": "components/styled/icon/src/molecules/counter-icon.tsx",
-          "hash": "13748401895587695153"
-        },
-        {
-          "file": "components/styled/icon/src/organisms/icon-button.tsx",
-          "hash": "7085273917617259814"
-        },
-        {
-          "file": "components/styled/icon/src/organisms/icon.tsx",
-          "hash": "17517057689219868378"
-        },
-        {
-          "file": "components/styled/icon/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/appointment-detail": [
-        {
-          "file": "components/clinical/appointment-detail/CHANGELOG.md",
-          "hash": "6662188521889515408"
-        },
-        {
-          "file": "components/clinical/appointment-detail/README.md",
-          "hash": "15495722499489195787"
-        },
-        {
-          "file": "components/clinical/appointment-detail/package.json",
-          "hash": "475607480535817421",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/styles",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/clinical/appointment-detail/src/index.tsx",
-          "hash": "12090994018594201493"
-        },
-        {
-          "file": "components/clinical/appointment-detail/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/questionnaire": [
-        {
-          "file": "components/clinical/questionnaire/CHANGELOG.md",
-          "hash": "11649139836128342869"
-        },
-        {
-          "file": "components/clinical/questionnaire/README.md",
-          "hash": "14753287510255505417"
-        },
-        {
-          "file": "components/clinical/questionnaire/index.d.ts",
-          "hash": "18415735921726693171"
-        },
-        {
-          "file": "components/clinical/questionnaire/package.json",
-          "hash": "2636187387916748032",
-          "deps": [
-            "npm:@bbob/preset-react",
-            "npm:@bbob/react",
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/hooks",
-            "@ltht-react/icon",
-            "@ltht-react/styles",
-            "@ltht-react/type-detail",
-            "@ltht-react/type-summary",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:html-react-parser",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/clinical/questionnaire/src/atoms/author-info.tsx",
-          "hash": "4332927943811166995"
-        },
-        {
-          "file": "components/clinical/questionnaire/src/atoms/title-info.tsx",
-          "hash": "17302711053794002848"
-        },
-        {
-          "file": "components/clinical/questionnaire/src/index.tsx",
-          "hash": "7623318955047280454"
-        },
-        {
-          "file": "components/clinical/questionnaire/src/molecules/question-block.tsx",
-          "hash": "3534330915782620611"
-        },
-        {
-          "file": "components/clinical/questionnaire/src/molecules/question-group.tsx",
-          "hash": "16504835722745925768"
-        },
-        {
-          "file": "components/clinical/questionnaire/src/molecules/redacted.tsx",
-          "hash": "9473450461582756094"
-        },
-        {
-          "file": "components/clinical/questionnaire/src/organisms/questionnaire.tsx",
-          "hash": "7283545914743292315"
-        },
-        {
-          "file": "components/clinical/questionnaire/tsconfig.json",
-          "hash": "11928156244999417258"
-        }
-      ],
-      "@ltht-react/list": [
-        {
-          "file": "components/styled/list/CHANGELOG.md",
-          "hash": "12787859734008719070"
-        },
-        {
-          "file": "components/styled/list/README.md",
-          "hash": "8026757007836136042"
-        },
-        {
-          "file": "components/styled/list/package.json",
-          "hash": "2295968406554669535",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/styles",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/styled/list/src/atoms/index.tsx",
-          "hash": "4355651380859282196"
-        },
-        {
-          "file": "components/styled/list/src/atoms/list-item.tsx",
-          "hash": "9588917724327494322"
-        },
-        {
-          "file": "components/styled/list/src/atoms/ordered-list.tsx",
-          "hash": "8967548888784880974"
-        },
-        {
-          "file": "components/styled/list/src/atoms/unordered-list.tsx",
-          "hash": "11812343709584771506"
-        },
-        {
-          "file": "components/styled/list/src/index.tsx",
-          "hash": "1095974124884110423"
-        },
-        {
-          "file": "components/styled/list/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/involved-team-summary": [
-        {
-          "file": "components/clinical/involved-team-summary/CHANGELOG.md",
-          "hash": "1371399779680799112"
-        },
-        {
-          "file": "components/clinical/involved-team-summary/README.md",
-          "hash": "15664950004027539772"
-        },
-        {
-          "file": "components/clinical/involved-team-summary/package.json",
-          "hash": "8972005988288907224",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/list",
-            "@ltht-react/styles",
-            "@ltht-react/type-summary",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/clinical/involved-team-summary/src/atoms/involved-team-description.tsx",
-          "hash": "4682196024656024934"
-        },
-        {
-          "file": "components/clinical/involved-team-summary/src/atoms/involved-team-title.tsx",
-          "hash": "4457484924305155430"
-        },
-        {
-          "file": "components/clinical/involved-team-summary/src/atoms/involved-team-type.tsx",
-          "hash": "18438865527551205645"
-        },
-        {
-          "file": "components/clinical/involved-team-summary/src/index.tsx",
-          "hash": "18146464986564318532"
-        },
-        {
-          "file": "components/clinical/involved-team-summary/src/molecules/involved-team-redacted.tsx",
-          "hash": "17513585788908348486"
-        },
-        {
-          "file": "components/clinical/involved-team-summary/src/organisms/involved-team-summary.tsx",
-          "hash": "18057883414318240946"
-        },
-        {
-          "file": "components/clinical/involved-team-summary/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/hooks": [
-        {
-          "file": "packages/hooks/CHANGELOG.md",
-          "hash": "15881662490714108615"
-        },
-        {
-          "file": "packages/hooks/README.md",
-          "hash": "4910454973324908562"
-        },
-        {
-          "file": "packages/hooks/package.json",
-          "hash": "5830749595364782509",
-          "deps": [
-            "npm:@testing-library/jest-dom",
-            "npm:@testing-library/react",
-            "npm:@testing-library/react-hooks",
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "packages/hooks/src/atoms/index.tsx",
-          "hash": "12684361762271033156"
-        },
-        {
-          "file": "packages/hooks/src/atoms/useElementSize.test.tsx",
-          "hash": "8889249467189918719"
-        },
-        {
-          "file": "packages/hooks/src/atoms/useElementSize.ts",
-          "hash": "4622272795620387661"
-        },
-        {
-          "file": "packages/hooks/src/atoms/useWindowSize.test.ts",
-          "hash": "18222171973322950921"
-        },
-        {
-          "file": "packages/hooks/src/atoms/useWindowSize.tsx",
-          "hash": "7942893470201383141"
-        },
-        {
-          "file": "packages/hooks/src/index.tsx",
-          "hash": "2922146266981085424"
-        },
-        {
-          "file": "packages/hooks/tsconfig.json",
-          "hash": "13466882084237868307"
-        }
-      ],
-      "@ltht-react/eform": [
-        {
-          "file": "components/clinical/eForm/CHANGELOG.md",
-          "hash": "7455573880984218694"
-        },
-        {
-          "file": "components/clinical/eForm/README.md",
-          "hash": "17001304688619731845"
-        },
-        {
-          "file": "components/clinical/eForm/package.json",
-          "hash": "11906378243898793434",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/styles",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/clinical/eForm/src/index.tsx",
-          "hash": "11769138386009956727"
-        },
-        {
-          "file": "components/clinical/eForm/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/patient-banner": [
-        {
-          "file": "components/clinical/patient-banner/CHANGELOG.md",
-          "hash": "3574581053346712974"
-        },
-        {
-          "file": "components/clinical/patient-banner/README.md",
-          "hash": "8649985463351558319"
-        },
-        {
-          "file": "components/clinical/patient-banner/package.json",
-          "hash": "8524668702026393101",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/icon",
-            "@ltht-react/styles",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/clinical/patient-banner/src/atoms/address.tsx",
-          "hash": "12791927049075582537"
-        },
-        {
-          "file": "components/clinical/patient-banner/src/atoms/age-at-death.tsx",
-          "hash": "5933269872206232569"
-        },
-        {
-          "file": "components/clinical/patient-banner/src/atoms/date-of-birth.tsx",
-          "hash": "8275719944544376089"
-        },
-        {
-          "file": "components/clinical/patient-banner/src/atoms/date-of-death.tsx",
-          "hash": "15471985126679129293"
-        },
-        {
-          "file": "components/clinical/patient-banner/src/atoms/gender.tsx",
-          "hash": "9441276263915215998"
-        },
-        {
-          "file": "components/clinical/patient-banner/src/atoms/name.tsx",
-          "hash": "17153142991979779728"
-        },
-        {
-          "file": "components/clinical/patient-banner/src/atoms/nhs-number.tsx",
-          "hash": "16499607927127662647"
-        },
-        {
-          "file": "components/clinical/patient-banner/src/atoms/pas-number.tsx",
-          "hash": "12693595036065447603"
-        },
-        {
-          "file": "components/clinical/patient-banner/src/atoms/ped-number.tsx",
-          "hash": "5722035055599072188"
-        },
-        {
-          "file": "components/clinical/patient-banner/src/index.tsx",
-          "hash": "5693807842233622761"
-        },
-        {
-          "file": "components/clinical/patient-banner/src/molecules/primary-info.tsx",
-          "hash": "12869454942483796926"
-        },
-        {
-          "file": "components/clinical/patient-banner/src/molecules/secondary-info.tsx",
-          "hash": "8084544142960197220"
-        },
-        {
-          "file": "components/clinical/patient-banner/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/types": [
-        {
-          "file": "packages/types/CHANGELOG.md",
-          "hash": "5422269519067833362"
-        },
-        {
-          "file": "packages/types/README.md",
-          "hash": "127493218412992542"
-        },
-        {
-          "file": "packages/types/codegen.yml",
-          "hash": "4097118491069421639"
-        },
-        {
-          "file": "packages/types/package.json",
-          "hash": "16706461216346912061",
-          "deps": [
-            "npm:@graphql-codegen/cli",
-            "npm:@graphql-codegen/typescript",
-            "npm:graphql",
-            "npm:typescript"
-          ]
-        },
-        {
-          "file": "packages/types/src/atoms/graphql-types.ts",
-          "hash": "8653458706037059709"
-        },
-        {
-          "file": "packages/types/src/atoms/index.ts",
-          "hash": "7627688626414760755"
-        },
-        {
-          "file": "packages/types/src/atoms/local-types.ts",
-          "hash": "7967098907173096182"
-        },
-        {
-          "file": "packages/types/src/index.ts",
-          "hash": "1095974124884110423"
-        },
-        {
-          "file": "packages/types/tsconfig.json",
-          "hash": "15138491533014631465"
-        }
-      ],
-      "@ltht-react/diagnosis-summary": [
-        {
-          "file": "components/clinical/diagnosis-summary/CHANGELOG.md",
-          "hash": "3331884936532008754"
-        },
-        {
-          "file": "components/clinical/diagnosis-summary/README.md",
-          "hash": "10784102233779240038"
-        },
-        {
-          "file": "components/clinical/diagnosis-summary/package.json",
-          "hash": "6673074126687369915",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/button",
-            "@ltht-react/hooks",
-            "@ltht-react/icon",
-            "@ltht-react/list",
-            "@ltht-react/styles",
-            "@ltht-react/type-summary",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/clinical/diagnosis-summary/src/atoms/diagnosis-category.tsx",
-          "hash": "7127029801027258876"
-        },
-        {
-          "file": "components/clinical/diagnosis-summary/src/atoms/diagnosis-data-source.tsx",
-          "hash": "17026482434741921775"
-        },
-        {
-          "file": "components/clinical/diagnosis-summary/src/atoms/diagnosis-onset-estimated.tsx",
-          "hash": "14462717286131307780"
-        },
-        {
-          "file": "components/clinical/diagnosis-summary/src/atoms/diagnosis-title.tsx",
-          "hash": "6249622239667641287"
-        },
-        {
-          "file": "components/clinical/diagnosis-summary/src/constants.ts",
-          "hash": "15265963544382495967"
-        },
-        {
-          "file": "components/clinical/diagnosis-summary/src/index.tsx",
-          "hash": "1913121964893945916"
-        },
-        {
-          "file": "components/clinical/diagnosis-summary/src/molecules/diagnosis-redacted.tsx",
-          "hash": "12337951304545363918"
-        },
-        {
-          "file": "components/clinical/diagnosis-summary/src/organisms/diagnosis-summary.tsx",
-          "hash": "13386147228580584801"
-        },
-        {
-          "file": "components/clinical/diagnosis-summary/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/plan-definition-editor": [
-        {
-          "file": "components/clinical/plan-definition-editor/CHANGELOG.md",
-          "hash": "10711620005627414028"
-        },
-        {
-          "file": "components/clinical/plan-definition-editor/README.md",
-          "hash": "17099913532614375304"
-        },
-        {
-          "file": "components/clinical/plan-definition-editor/package.json",
-          "hash": "6337021676863389134",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/icon",
-            "@ltht-react/input",
-            "@ltht-react/styles",
-            "@ltht-react/types",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/clinical/plan-definition-editor/src/index.tsx",
-          "hash": "3005644169461060388"
-        },
-        {
-          "file": "components/clinical/plan-definition-editor/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/type-detail": [
-        {
-          "file": "components/clinical/shared/type-detail/CHANGELOG.md",
-          "hash": "1964017285850285095"
-        },
-        {
-          "file": "components/clinical/shared/type-detail/README.md",
-          "hash": "9996065045440485725"
-        },
-        {
-          "file": "components/clinical/shared/type-detail/package.json",
-          "hash": "336749699971172707",
-          "deps": [
-            "npm:@types/ent",
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/description-list",
-            "@ltht-react/icon",
-            "@ltht-react/list",
-            "@ltht-react/styles",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:ent",
-            "npm:html-react-parser",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/clinical/shared/type-detail/src/atoms/detail-view-component.ts",
-          "hash": "992469998854103931"
-        },
-        {
-          "file": "components/clinical/shared/type-detail/src/index.tsx",
-          "hash": "7457806973057905659"
-        },
-        {
-          "file": "components/clinical/shared/type-detail/src/molecules/annotation-list-detail.tsx",
-          "hash": "6391055582454293905"
-        },
-        {
-          "file": "components/clinical/shared/type-detail/src/molecules/asserter-detail.tsx",
-          "hash": "2295569284859600275"
-        },
-        {
-          "file": "components/clinical/shared/type-detail/src/molecules/codeable-concept-detail.tsx",
-          "hash": "9910568943398948014"
-        },
-        {
-          "file": "components/clinical/shared/type-detail/src/molecules/codeable-concept-list-detail.tsx",
-          "hash": "708228373332460153"
-        },
-        {
-          "file": "components/clinical/shared/type-detail/src/molecules/coding-detail.tsx",
-          "hash": "2027407938175172743"
-        },
-        {
-          "file": "components/clinical/shared/type-detail/src/molecules/coding-list-detail.tsx",
-          "hash": "11148676876791397333"
-        },
-        {
-          "file": "components/clinical/shared/type-detail/src/molecules/datetime-detail.tsx",
-          "hash": "4993000441537838629"
-        },
-        {
-          "file": "components/clinical/shared/type-detail/src/molecules/index.ts",
-          "hash": "12272891009749853111"
-        },
-        {
-          "file": "components/clinical/shared/type-detail/src/molecules/narrative-detail.tsx",
-          "hash": "13016781910652719928"
-        },
-        {
-          "file": "components/clinical/shared/type-detail/src/molecules/nested-list-detail.tsx",
-          "hash": "1824461792890462102"
-        },
-        {
-          "file": "components/clinical/shared/type-detail/src/molecules/period-detail.tsx",
-          "hash": "6302306315744504078"
-        },
-        {
-          "file": "components/clinical/shared/type-detail/src/molecules/resource-reference-detail.tsx",
-          "hash": "5932797519948449090"
-        },
-        {
-          "file": "components/clinical/shared/type-detail/src/molecules/resource-reference-list-detail.tsx",
-          "hash": "17773145830712900918"
-        },
-        {
-          "file": "components/clinical/shared/type-detail/src/molecules/string-detail.tsx",
-          "hash": "5954063563596773784"
-        },
-        {
-          "file": "components/clinical/shared/type-detail/src/organisms/collapsible-detail-collection.tsx",
-          "hash": "15653118225924239949"
-        },
-        {
-          "file": "components/clinical/shared/type-detail/src/organisms/identifier-detail.tsx",
-          "hash": "704759279464000793"
-        },
-        {
-          "file": "components/clinical/shared/type-detail/tsconfig.json",
-          "hash": "14030160959979447829"
-        }
-      ],
-      "@ltht-react/community-treatment-order-summary": [
-        {
-          "file": "components/clinical/community-treatment-order-summary/CHANGELOG.md",
-          "hash": "17230804674277182407"
-        },
-        {
-          "file": "components/clinical/community-treatment-order-summary/README.md",
-          "hash": "3141262289111489425"
-        },
-        {
-          "file": "components/clinical/community-treatment-order-summary/package.json",
-          "hash": "3662689080264421548",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/list",
-            "@ltht-react/styles",
-            "@ltht-react/type-summary",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/clinical/community-treatment-order-summary/src/atoms/community-treatment-order-summary-consent.tsx",
-          "hash": "2468917066240905012"
-        },
-        {
-          "file": "components/clinical/community-treatment-order-summary/src/atoms/community-treatment-order-summary-restrictions.tsx",
-          "hash": "3062980152769548470"
-        },
-        {
-          "file": "components/clinical/community-treatment-order-summary/src/atoms/community-treatment-order-summary-status.tsx",
-          "hash": "11540610335956806157"
-        },
-        {
-          "file": "components/clinical/community-treatment-order-summary/src/index.tsx",
-          "hash": "4658099706888343420"
-        },
-        {
-          "file": "components/clinical/community-treatment-order-summary/src/molecules/community-treatment-order-redacted.tsx",
-          "hash": "12579553554906908975"
-        },
-        {
-          "file": "components/clinical/community-treatment-order-summary/src/organisms/community-treatment-order-summary.tsx",
-          "hash": "775812702013046141"
-        },
-        {
-          "file": "components/clinical/community-treatment-order-summary/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/allergy-summary": [
-        {
-          "file": "components/clinical/allergy-summary/CHANGELOG.md",
-          "hash": "11838803840735234367"
-        },
-        {
-          "file": "components/clinical/allergy-summary/README.md",
-          "hash": "4800428785199700808"
-        },
-        {
-          "file": "components/clinical/allergy-summary/package.json",
-          "hash": "4049967586952642141",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/icon",
-            "@ltht-react/list",
-            "@ltht-react/styles",
-            "@ltht-react/type-summary",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/clinical/allergy-summary/src/atoms/allergy-description.tsx",
-          "hash": "18391101904359105666"
-        },
-        {
-          "file": "components/clinical/allergy-summary/src/atoms/allergy-icon.tsx",
-          "hash": "13708927706845526341"
-        },
-        {
-          "file": "components/clinical/allergy-summary/src/atoms/allergy-status.tsx",
-          "hash": "16992413314667360857"
-        },
-        {
-          "file": "components/clinical/allergy-summary/src/atoms/allergy-title.tsx",
-          "hash": "16247717482491541633"
-        },
-        {
-          "file": "components/clinical/allergy-summary/src/index.tsx",
-          "hash": "4154144375605952090"
-        },
-        {
-          "file": "components/clinical/allergy-summary/src/molecules/allergy-redacted.tsx",
-          "hash": "15749792878867496243"
-        },
-        {
-          "file": "components/clinical/allergy-summary/src/organisms/allergy-summary.tsx",
-          "hash": "1777539268438580528"
-        },
-        {
-          "file": "components/clinical/allergy-summary/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/medication-summary": [
-        {
-          "file": "components/clinical/medication-summary/CHANGELOG.md",
-          "hash": "16840713711859778296"
-        },
-        {
-          "file": "components/clinical/medication-summary/README.md",
-          "hash": "9176652186532805487"
-        },
-        {
-          "file": "components/clinical/medication-summary/package.json",
-          "hash": "9789803418974657431",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/badge",
-            "@ltht-react/description-list",
-            "@ltht-react/icon",
-            "@ltht-react/medication",
-            "@ltht-react/styles",
-            "@ltht-react/type-summary",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/clinical/medication-summary/src/atoms/medication-indication.tsx",
-          "hash": "2755724406763930499"
-        },
-        {
-          "file": "components/clinical/medication-summary/src/atoms/medication-route.tsx",
-          "hash": "14095481232981291755"
-        },
-        {
-          "file": "components/clinical/medication-summary/src/atoms/medication-title.tsx",
-          "hash": "12557413653602476612"
-        },
-        {
-          "file": "components/clinical/medication-summary/src/index.tsx",
-          "hash": "13335340452384237931"
-        },
-        {
-          "file": "components/clinical/medication-summary/src/molecules/medication-additional-info.tsx",
-          "hash": "14953931775287214813"
-        },
-        {
-          "file": "components/clinical/medication-summary/src/molecules/medication-redacted.tsx",
-          "hash": "4712570290594546547"
-        },
-        {
-          "file": "components/clinical/medication-summary/src/organisms/medication-summary.tsx",
-          "hash": "3637294128321822772"
-        },
-        {
-          "file": "components/clinical/medication-summary/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/input": [
-        {
-          "file": "components/styled/input/CHANGELOG.md",
-          "hash": "13596020522780848075"
-        },
-        {
-          "file": "components/styled/input/README.md",
-          "hash": "4204801993426056500"
-        },
-        {
-          "file": "components/styled/input/package.json",
-          "hash": "12896977147482785279",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/button",
-            "@ltht-react/icon",
-            "@ltht-react/styles",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:@popperjs/core",
-            "npm:date-fns",
-            "npm:focus-trap-react",
-            "npm:prop-types",
-            "npm:react",
-            "npm:react-day-picker",
-            "npm:react-popper"
-          ]
-        },
-        {
-          "file": "components/styled/input/src/atoms/checkbox.tsx",
-          "hash": "14672223474314726209"
-        },
-        {
-          "file": "components/styled/input/src/atoms/daypicker.tsx",
-          "hash": "12825170080822456902"
-        },
-        {
-          "file": "components/styled/input/src/atoms/index.tsx",
-          "hash": "8234280827908367821"
-        },
-        {
-          "file": "components/styled/input/src/atoms/radio.tsx",
-          "hash": "4377745321776120154"
-        },
-        {
-          "file": "components/styled/input/src/atoms/text.tsx",
-          "hash": "18362801846541904626"
-        },
-        {
-          "file": "components/styled/input/src/atoms/toggle.tsx",
-          "hash": "4088692980578747664"
-        },
-        {
-          "file": "components/styled/input/src/index.tsx",
-          "hash": "350484401536987742"
-        },
-        {
-          "file": "components/styled/input/src/molecules/daypicker-range.tsx",
-          "hash": "991457275540127681"
-        },
-        {
-          "file": "components/styled/input/src/molecules/index.tsx",
-          "hash": "3742677710674423723"
-        },
-        {
-          "file": "components/styled/input/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/care-plan-detail": [
-        {
-          "file": "components/clinical/care-plan-detail/CHANGELOG.md",
-          "hash": "15387360725265511014"
-        },
-        {
-          "file": "components/clinical/care-plan-detail/README.md",
-          "hash": "7725540456625342511"
-        },
-        {
-          "file": "components/clinical/care-plan-detail/package.json",
-          "hash": "916375546716539414",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/description-list",
-            "@ltht-react/styles",
-            "@ltht-react/type-detail",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/clinical/care-plan-detail/src/index.tsx",
-          "hash": "14293196658555671187"
-        },
-        {
-          "file": "components/clinical/care-plan-detail/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/utils": [
-        {
-          "file": "packages/utils/CHANGELOG.md",
-          "hash": "6657201901948811499"
-        },
-        {
-          "file": "packages/utils/README.md",
-          "hash": "4929825607928160320"
-        },
-        {
-          "file": "packages/utils/package.json",
-          "hash": "9354249308436257981",
-          "deps": [
-            "@ltht-react/styles",
-            "@ltht-react/types",
-            "npm:date-fns",
-            "npm:html-react-parser"
-          ]
-        },
-        {
-          "file": "packages/utils/src/atoms/allergy-intolerance-category-code.test.ts",
-          "hash": "12418629254423658542"
-        },
-        {
-          "file": "packages/utils/src/atoms/allergy-intolerance-category-code.ts",
-          "hash": "14160881927253981809"
-        },
-        {
-          "file": "packages/utils/src/atoms/codeable-concept.test.ts",
-          "hash": "11324366871804632771"
-        },
-        {
-          "file": "packages/utils/src/atoms/codeable-concept.ts",
-          "hash": "4990523620859049707"
-        },
-        {
-          "file": "packages/utils/src/atoms/ensure-maybe.ts",
-          "hash": "16106854645782892192"
-        },
-        {
-          "file": "packages/utils/src/atoms/extensions.test.ts",
-          "hash": "3877462282197070943"
-        },
-        {
-          "file": "packages/utils/src/atoms/extensions.ts",
-          "hash": "13865111231429014575"
-        },
-        {
-          "file": "packages/utils/src/atoms/index.ts",
-          "hash": "8998389737790318462"
-        },
-        {
-          "file": "packages/utils/src/atoms/isDesktopView.test.ts",
-          "hash": "5115261329092422989"
-        },
-        {
-          "file": "packages/utils/src/atoms/isDesktopView.ts",
-          "hash": "8806531306475495965"
-        },
-        {
-          "file": "packages/utils/src/atoms/isMobileView.test.ts",
-          "hash": "14602631656611575534"
-        },
-        {
-          "file": "packages/utils/src/atoms/isMobileView.ts",
-          "hash": "4941162621388702083"
-        },
-        {
-          "file": "packages/utils/src/atoms/isTabletView.test.ts",
-          "hash": "7422605341526022910"
-        },
-        {
-          "file": "packages/utils/src/atoms/isTabletView.ts",
-          "hash": "16987269330616454040"
-        },
-        {
-          "file": "packages/utils/src/atoms/isWidescreenView.test.ts",
-          "hash": "2772761075385430233"
-        },
-        {
-          "file": "packages/utils/src/atoms/isWidescreenView.ts",
-          "hash": "14396504055457032014"
-        },
-        {
-          "file": "packages/utils/src/atoms/medication-title-separator.ts",
-          "hash": "18433986918612799655"
-        },
-        {
-          "file": "packages/utils/src/atoms/metadata.test.ts",
-          "hash": "14229615993232418120"
-        },
-        {
-          "file": "packages/utils/src/atoms/metadata.ts",
-          "hash": "15288690911491206672"
-        },
-        {
-          "file": "packages/utils/src/atoms/parse-html.tsx",
-          "hash": "10839591561497454840"
-        },
-        {
-          "file": "packages/utils/src/atoms/partial-date-time.test.ts",
-          "hash": "10946508353321517874"
-        },
-        {
-          "file": "packages/utils/src/atoms/partial-date-time.ts",
-          "hash": "11655301794860833422"
-        },
-        {
-          "file": "packages/utils/src/atoms/patient.test.ts",
-          "hash": "9628798024885654733"
-        },
-        {
-          "file": "packages/utils/src/atoms/patient.ts",
-          "hash": "16015042015125518122"
-        },
-        {
-          "file": "packages/utils/src/atoms/period.test.ts",
-          "hash": "7674584626121846557"
-        },
-        {
-          "file": "packages/utils/src/atoms/period.ts",
-          "hash": "16700773087915366080"
-        },
-        {
-          "file": "packages/utils/src/atoms/quantity.test.ts",
-          "hash": "10938710561704456377"
-        },
-        {
-          "file": "packages/utils/src/atoms/quantity.ts",
-          "hash": "659143033207200973"
-        },
-        {
-          "file": "packages/utils/src/atoms/range.test.ts",
-          "hash": "13731753670600637258"
-        },
-        {
-          "file": "packages/utils/src/atoms/range.ts",
-          "hash": "2190221374992543680"
-        },
-        {
-          "file": "packages/utils/src/atoms/resource-reference.test.ts",
-          "hash": "8564592052969350053"
-        },
-        {
-          "file": "packages/utils/src/atoms/resource-reference.ts",
-          "hash": "10356314635174775073"
-        },
-        {
-          "file": "packages/utils/src/atoms/strip-bb-tags.test.ts",
-          "hash": "1259925781573960524"
-        },
-        {
-          "file": "packages/utils/src/atoms/strip-bb-tags.ts",
-          "hash": "13433736274360605297"
-        },
-        {
-          "file": "packages/utils/src/atoms/strip-html-tags.test.ts",
-          "hash": "17002488110627134373"
-        },
-        {
-          "file": "packages/utils/src/atoms/strip-html-tags.ts",
-          "hash": "17475097931855323813"
-        },
-        {
-          "file": "packages/utils/src/atoms/title-case.test.ts",
-          "hash": "11652295066209613141"
-        },
-        {
-          "file": "packages/utils/src/atoms/title-case.ts",
-          "hash": "11238892200453833663"
-        },
-        {
-          "file": "packages/utils/src/index.ts",
-          "hash": "1095974124884110423"
-        },
-        {
-          "file": "packages/utils/tsconfig.json",
-          "hash": "13466882084237868307"
-        }
-      ],
-      "@ltht-react/diagnosis-detail": [
-        {
-          "file": "components/clinical/diagnosis-detail/CHANGELOG.md",
-          "hash": "17760746020636990571"
-        },
-        {
-          "file": "components/clinical/diagnosis-detail/README.md",
-          "hash": "14298522412018632601"
-        },
-        {
-          "file": "components/clinical/diagnosis-detail/package-lock.json",
-          "hash": "442456387451854632"
-        },
-        {
-          "file": "components/clinical/diagnosis-detail/package.json",
-          "hash": "18178728716564613105",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/hooks",
-            "@ltht-react/questionnaire",
-            "@ltht-react/styles",
-            "@ltht-react/type-detail",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/clinical/diagnosis-detail/src/constants.ts",
-          "hash": "1335651620911675510"
-        },
-        {
-          "file": "components/clinical/diagnosis-detail/src/index.tsx",
-          "hash": "1682577113405128067"
-        },
-        {
-          "file": "components/clinical/diagnosis-detail/src/organisms/diagnosis-detail.tsx",
-          "hash": "1871061137230743790"
-        },
-        {
-          "file": "components/clinical/diagnosis-detail/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/badge": [
-        {
-          "file": "components/styled/badge/CHANGELOG.md",
-          "hash": "11568010820862214187"
-        },
-        {
-          "file": "components/styled/badge/README.md",
-          "hash": "8508958580458613363"
-        },
-        {
-          "file": "components/styled/badge/package.json",
-          "hash": "5759366093861940746",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/icon",
-            "@ltht-react/styles",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/styled/badge/src/index.tsx",
-          "hash": "13176097960268064863"
-        },
-        {
-          "file": "components/styled/badge/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/select": [
-        {
-          "file": "components/styled/select/CHANGELOG.md",
-          "hash": "14735058215984873942"
-        },
-        {
-          "file": "components/styled/select/README.md",
-          "hash": "9005968423585824242"
-        },
-        {
-          "file": "components/styled/select/package.json",
-          "hash": "18269297759350562983",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/icon",
-            "@ltht-react/styles",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/styled/select/src/index.tsx",
-          "hash": "4518650183272882038"
-        },
-        {
-          "file": "components/styled/select/tsconfig.json",
+          "file": "components/clinical/task/tsconfig.json",
           "hash": "7615905302925360953"
         }
       ],
@@ -2081,86 +1241,18 @@
           "hash": "7615905302925360953"
         }
       ],
-      "@ltht-react/observation-detail": [
+      "@ltht-react/banner": [
         {
-          "file": "components/clinical/observation-detail/CHANGELOG.md",
-          "hash": "4976315369636837964"
+          "file": "components/styled/banner/CHANGELOG.md",
+          "hash": "4676250074070117041"
         },
         {
-          "file": "components/clinical/observation-detail/README.md",
-          "hash": "4263139520997201651"
+          "file": "components/styled/banner/README.md",
+          "hash": "9135333459327892409"
         },
         {
-          "file": "components/clinical/observation-detail/package.json",
-          "hash": "2711930731814255641",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/styles",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/clinical/observation-detail/src/index.tsx",
-          "hash": "3427771679336020159"
-        },
-        {
-          "file": "components/clinical/observation-detail/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/form": [
-        {
-          "file": "components/styled/form/CHANGELOG.md",
-          "hash": "1408305782126753503"
-        },
-        {
-          "file": "components/styled/form/README.md",
-          "hash": "11669074168718828879"
-        },
-        {
-          "file": "components/styled/form/package.json",
-          "hash": "9166239956550541909",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/styles",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/styled/form/src/atoms/form-check.tsx",
-          "hash": "200426209989785013"
-        },
-        {
-          "file": "components/styled/form/src/index.tsx",
-          "hash": "10729249926479105027"
-        },
-        {
-          "file": "components/styled/form/src/molecules/form.tsx",
-          "hash": "5742035857807502113"
-        },
-        {
-          "file": "components/styled/form/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/button": [
-        {
-          "file": "components/styled/button/CHANGELOG.md",
-          "hash": "3282686536430777157"
-        },
-        {
-          "file": "components/styled/button/README.md",
-          "hash": "8559606701067689934"
-        },
-        {
-          "file": "components/styled/button/package.json",
-          "hash": "5350305135796990758",
+          "file": "components/styled/banner/package.json",
+          "hash": "16074149928307429411",
           "deps": [
             "npm:@emotion/react",
             "npm:@emotion/styled",
@@ -2172,19 +1264,271 @@
           ]
         },
         {
-          "file": "components/styled/button/src/atoms/button.tsx",
-          "hash": "1588565908599113000"
+          "file": "components/styled/banner/src/index.tsx",
+          "hash": "6281182749474992078"
         },
         {
-          "file": "components/styled/button/src/atoms/primary-button.tsx",
-          "hash": "17562501414488785759"
+          "file": "components/styled/banner/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/problem": [
+        {
+          "file": "components/styled/problem/CHANGELOG.md",
+          "hash": "4675429310724029595"
         },
         {
-          "file": "components/styled/button/src/index.tsx",
-          "hash": "5617447727921308854"
+          "file": "components/styled/problem/README.md",
+          "hash": "7914230047463987290"
         },
         {
-          "file": "components/styled/button/tsconfig.json",
+          "file": "components/styled/problem/package.json",
+          "hash": "8625013364509185785",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/icon",
+            "@ltht-react/styles",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/styled/problem/src/atoms/problem-message.tsx",
+          "hash": "3347318413166625029"
+        },
+        {
+          "file": "components/styled/problem/src/index.tsx",
+          "hash": "9232326960759867735"
+        },
+        {
+          "file": "components/styled/problem/src/molecules/problem-summary.tsx",
+          "hash": "14482964750225682600"
+        },
+        {
+          "file": "components/styled/problem/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/description-list": [
+        {
+          "file": "components/styled/description-list/CHANGELOG.md",
+          "hash": "14087491662954563453"
+        },
+        {
+          "file": "components/styled/description-list/README.md",
+          "hash": "2833544713818545442"
+        },
+        {
+          "file": "components/styled/description-list/package.json",
+          "hash": "11523241724823148891",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/styles",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:classnames",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/styled/description-list/src/atoms/description.tsx",
+          "hash": "1260959679260287452"
+        },
+        {
+          "file": "components/styled/description-list/src/atoms/term.tsx",
+          "hash": "10336615239331755491"
+        },
+        {
+          "file": "components/styled/description-list/src/index.tsx",
+          "hash": "13457280565064491925"
+        },
+        {
+          "file": "components/styled/description-list/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/plan-definition-editor": [
+        {
+          "file": "components/clinical/plan-definition-editor/CHANGELOG.md",
+          "hash": "10711620005627414028"
+        },
+        {
+          "file": "components/clinical/plan-definition-editor/README.md",
+          "hash": "17099913532614375304"
+        },
+        {
+          "file": "components/clinical/plan-definition-editor/package.json",
+          "hash": "6337021676863389134",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/icon",
+            "@ltht-react/input",
+            "@ltht-react/styles",
+            "@ltht-react/types",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/clinical/plan-definition-editor/src/index.tsx",
+          "hash": "3005644169461060388"
+        },
+        {
+          "file": "components/clinical/plan-definition-editor/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/flag-summary": [
+        {
+          "file": "components/clinical/flag-summary/CHANGELOG.md",
+          "hash": "16973681327338435914"
+        },
+        {
+          "file": "components/clinical/flag-summary/README.md",
+          "hash": "12030182470134735218"
+        },
+        {
+          "file": "components/clinical/flag-summary/package.json",
+          "hash": "1888350552520813681",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/icon",
+            "@ltht-react/list",
+            "@ltht-react/styles",
+            "@ltht-react/type-summary",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/clinical/flag-summary/src/atoms/flag-description.tsx",
+          "hash": "9841565890929419597"
+        },
+        {
+          "file": "components/clinical/flag-summary/src/atoms/flag-icon.tsx",
+          "hash": "11288712845797191791"
+        },
+        {
+          "file": "components/clinical/flag-summary/src/atoms/flag-source.tsx",
+          "hash": "369168267410702885"
+        },
+        {
+          "file": "components/clinical/flag-summary/src/atoms/flag-status.tsx",
+          "hash": "4281251736007238241"
+        },
+        {
+          "file": "components/clinical/flag-summary/src/atoms/flag-text.tsx",
+          "hash": "2030676909064525339"
+        },
+        {
+          "file": "components/clinical/flag-summary/src/atoms/flag-title.tsx",
+          "hash": "8697254056678127136"
+        },
+        {
+          "file": "components/clinical/flag-summary/src/index.tsx",
+          "hash": "8922689741361179787"
+        },
+        {
+          "file": "components/clinical/flag-summary/src/molecules/flag-identifier.tsx",
+          "hash": "6614679102544878220"
+        },
+        {
+          "file": "components/clinical/flag-summary/src/molecules/flag-redacted.tsx",
+          "hash": "4033646208570938204"
+        },
+        {
+          "file": "components/clinical/flag-summary/src/organisms/flag-summary.tsx",
+          "hash": "9139100806732046484"
+        },
+        {
+          "file": "components/clinical/flag-summary/tsconfig.json",
+          "hash": "4628655878588929964"
+        }
+      ],
+      "@ltht-react/care-plan-detail": [
+        {
+          "file": "components/clinical/care-plan-detail/CHANGELOG.md",
+          "hash": "15387360725265511014"
+        },
+        {
+          "file": "components/clinical/care-plan-detail/README.md",
+          "hash": "7725540456625342511"
+        },
+        {
+          "file": "components/clinical/care-plan-detail/package.json",
+          "hash": "916375546716539414",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/description-list",
+            "@ltht-react/styles",
+            "@ltht-react/type-detail",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/clinical/care-plan-detail/src/index.tsx",
+          "hash": "14293196658555671187"
+        },
+        {
+          "file": "components/clinical/care-plan-detail/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/community-treatment-order-summary": [
+        {
+          "file": "components/clinical/community-treatment-order-summary/CHANGELOG.md",
+          "hash": "17230804674277182407"
+        },
+        {
+          "file": "components/clinical/community-treatment-order-summary/README.md",
+          "hash": "3141262289111489425"
+        },
+        {
+          "file": "components/clinical/community-treatment-order-summary/package.json",
+          "hash": "3662689080264421548",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/list",
+            "@ltht-react/styles",
+            "@ltht-react/type-summary",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/clinical/community-treatment-order-summary/src/atoms/community-treatment-order-summary-consent.tsx",
+          "hash": "2468917066240905012"
+        },
+        {
+          "file": "components/clinical/community-treatment-order-summary/src/atoms/community-treatment-order-summary-restrictions.tsx",
+          "hash": "3062980152769548470"
+        },
+        {
+          "file": "components/clinical/community-treatment-order-summary/src/atoms/community-treatment-order-summary-status.tsx",
+          "hash": "11540610335956806157"
+        },
+        {
+          "file": "components/clinical/community-treatment-order-summary/src/index.tsx",
+          "hash": "4658099706888343420"
+        },
+        {
+          "file": "components/clinical/community-treatment-order-summary/src/molecules/community-treatment-order-redacted.tsx",
+          "hash": "12579553554906908975"
+        },
+        {
+          "file": "components/clinical/community-treatment-order-summary/src/organisms/community-treatment-order-summary.tsx",
+          "hash": "775812702013046141"
+        },
+        {
+          "file": "components/clinical/community-treatment-order-summary/tsconfig.json",
           "hash": "7615905302925360953"
         }
       ],
@@ -2219,13 +1563,16 @@
         },
         {
           "file": "packages/storybook/package.json",
-          "hash": "2430470092293796833",
+          "hash": "9303704785370307645",
           "deps": [
             "npm:@babel/preset-env",
             "npm:@babel/preset-react",
             "npm:@babel/preset-typescript",
+            "npm:@storybook/addon-essentials",
+            "npm:@storybook/react-webpack5",
             "npm:@storybook/storybook-deployer",
             "npm:babel-loader",
+            "npm:storybook",
             "npm:typescript",
             "npm:@emotion/react",
             "npm:@emotion/styled",
@@ -2278,10 +1625,13 @@
             "@ltht-react/type-summary",
             "@ltht-react/types",
             "@ltht-react/utils",
+            "npm:@storybook/react",
             "npm:@testing-library/jest-dom",
             "npm:@testing-library/react",
             "npm:@testing-library/user-event",
             "npm:date-fns",
+            "npm:nx",
+            "npm:prettylint",
             "npm:react",
             "npm:react-day-picker",
             "npm:react-dom"
@@ -3020,22 +2370,23 @@
           "hash": "10110646898666003025"
         }
       ],
-      "@ltht-react/hospital-stay-detail": [
+      "@ltht-react/medication-detail": [
         {
-          "file": "components/clinical/hospital-stay-detail/CHANGELOG.md",
-          "hash": "7998222125459642918"
+          "file": "components/clinical/medication-detail/CHANGELOG.md",
+          "hash": "12847096017383418475"
         },
         {
-          "file": "components/clinical/hospital-stay-detail/README.md",
-          "hash": "6989029089521900501"
+          "file": "components/clinical/medication-detail/README.md",
+          "hash": "8951730595110892512"
         },
         {
-          "file": "components/clinical/hospital-stay-detail/package.json",
-          "hash": "14849472023382253594",
+          "file": "components/clinical/medication-detail/package.json",
+          "hash": "12157330433264614745",
           "deps": [
-            "npm:@emotion/react",
             "npm:@emotion/styled",
             "@ltht-react/description-list",
+            "@ltht-react/hooks",
+            "@ltht-react/medication",
             "@ltht-react/styles",
             "@ltht-react/type-detail",
             "@ltht-react/types",
@@ -3044,24 +2395,102 @@
           ]
         },
         {
-          "file": "components/clinical/hospital-stay-detail/src/index.tsx",
-          "hash": "11996603944568763122"
+          "file": "components/clinical/medication-detail/src/index.tsx",
+          "hash": "14719796725091544793"
         },
         {
-          "file": "components/clinical/hospital-stay-detail/src/molecules/encounter-hospitalisation-detail.tsx",
-          "hash": "2622596938371306024"
-        },
-        {
-          "file": "components/clinical/hospital-stay-detail/src/molecules/encounter-participant-detail.tsx",
-          "hash": "710872568136144137"
-        },
-        {
-          "file": "components/clinical/hospital-stay-detail/src/molecules/encounter-status-history-detail.tsx",
-          "hash": "10531718801903884839"
-        },
-        {
-          "file": "components/clinical/hospital-stay-detail/tsconfig.json",
+          "file": "components/clinical/medication-detail/tsconfig.json",
           "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/icon": [
+        {
+          "file": "components/styled/icon/CHANGELOG.md",
+          "hash": "2763710885562284922"
+        },
+        {
+          "file": "components/styled/icon/README.md",
+          "hash": "6150600523695356045"
+        },
+        {
+          "file": "components/styled/icon/package.json",
+          "hash": "3621837057376371552",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "npm:@fortawesome/fontawesome-svg-core",
+            "npm:@fortawesome/free-regular-svg-icons",
+            "npm:@fortawesome/free-solid-svg-icons",
+            "npm:@fortawesome/react-fontawesome",
+            "@ltht-react/styles",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/styled/icon/src/atoms/styled-icon.tsx",
+          "hash": "6582577565954727407"
+        },
+        {
+          "file": "components/styled/icon/src/index.tsx",
+          "hash": "4741134534129287"
+        },
+        {
+          "file": "components/styled/icon/src/molecules/counter-icon.tsx",
+          "hash": "13748401895587695153"
+        },
+        {
+          "file": "components/styled/icon/src/organisms/icon-button.tsx",
+          "hash": "7085273917617259814"
+        },
+        {
+          "file": "components/styled/icon/src/organisms/icon.tsx",
+          "hash": "17517057689219868378"
+        },
+        {
+          "file": "components/styled/icon/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/guidance-summary": [
+        {
+          "file": "components/clinical/guidance-summary/CHANGELOG.md",
+          "hash": "13240650888878366695"
+        },
+        {
+          "file": "components/clinical/guidance-summary/README.md",
+          "hash": "9102920746916124469"
+        },
+        {
+          "file": "components/clinical/guidance-summary/package.json",
+          "hash": "1273801215494895277",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/list",
+            "@ltht-react/styles",
+            "@ltht-react/type-summary",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/clinical/guidance-summary/src/index.tsx",
+          "hash": "5640582058611886461"
+        },
+        {
+          "file": "components/clinical/guidance-summary/src/molecules/guidance-redacted.tsx",
+          "hash": "18292724824216796468"
+        },
+        {
+          "file": "components/clinical/guidance-summary/src/organisms/guidance-summary.tsx",
+          "hash": "16727124147073187802"
+        },
+        {
+          "file": "components/clinical/guidance-summary/tsconfig.json",
+          "hash": "4959511478909138773"
         }
       ],
       "@ltht-react/type-summary": [
@@ -3142,23 +2571,262 @@
           "hash": "14030160959979447829"
         }
       ],
-      "@ltht-react/medication-detail": [
+      "@ltht-react/timeline": [
         {
-          "file": "components/clinical/medication-detail/CHANGELOG.md",
-          "hash": "12847096017383418475"
+          "file": "components/clinical/timeline/CHANGELOG.md",
+          "hash": "10193370721512237590"
         },
         {
-          "file": "components/clinical/medication-detail/README.md",
-          "hash": "8951730595110892512"
+          "file": "components/clinical/timeline/README.md",
+          "hash": "17998232464712674144"
         },
         {
-          "file": "components/clinical/medication-detail/package.json",
-          "hash": "12157330433264614745",
+          "file": "components/clinical/timeline/package.json",
+          "hash": "12622099156401268877",
           "deps": [
             "npm:@emotion/styled",
-            "@ltht-react/description-list",
+            "@ltht-react/banner",
+            "@ltht-react/button",
             "@ltht-react/hooks",
-            "@ltht-react/medication",
+            "@ltht-react/icon",
+            "@ltht-react/select",
+            "@ltht-react/styles",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:html-react-parser",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/clinical/timeline/src/atoms/time-element.tsx",
+          "hash": "9008045026002329761"
+        },
+        {
+          "file": "components/clinical/timeline/src/atoms/timeline-author.tsx",
+          "hash": "5909801270309208573"
+        },
+        {
+          "file": "components/clinical/timeline/src/atoms/timeline-button.tsx",
+          "hash": "3449875004745737906"
+        },
+        {
+          "file": "components/clinical/timeline/src/atoms/timeline-description.tsx",
+          "hash": "1256238258432921181"
+        },
+        {
+          "file": "components/clinical/timeline/src/atoms/timeline-time.tsx",
+          "hash": "7067618735688921830"
+        },
+        {
+          "file": "components/clinical/timeline/src/atoms/timeline-title-redacted.tsx",
+          "hash": "6089320136845478524"
+        },
+        {
+          "file": "components/clinical/timeline/src/atoms/timeline-title.tsx",
+          "hash": "16149490823090367059"
+        },
+        {
+          "file": "components/clinical/timeline/src/constants.ts",
+          "hash": "6563243537807751381"
+        },
+        {
+          "file": "components/clinical/timeline/src/index.tsx",
+          "hash": "13841979981728123072"
+        },
+        {
+          "file": "components/clinical/timeline/src/molecules/timeline-item-redacted.tsx",
+          "hash": "9988220348925051435"
+        },
+        {
+          "file": "components/clinical/timeline/src/molecules/timeline-item.tsx",
+          "hash": "5828444621237977647"
+        },
+        {
+          "file": "components/clinical/timeline/src/organisms/timeline.tsx",
+          "hash": "6106324308114193096"
+        },
+        {
+          "file": "components/clinical/timeline/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/observation-summary": [
+        {
+          "file": "components/clinical/observation-summary/CHANGELOG.md",
+          "hash": "323773109144506544"
+        },
+        {
+          "file": "components/clinical/observation-summary/README.md",
+          "hash": "14634664695638341600"
+        },
+        {
+          "file": "components/clinical/observation-summary/package.json",
+          "hash": "11987484019452577262",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/list",
+            "@ltht-react/styles",
+            "@ltht-react/type-summary",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/clinical/observation-summary/src/atoms/observation-status.tsx",
+          "hash": "10669665829925524162"
+        },
+        {
+          "file": "components/clinical/observation-summary/src/atoms/observation-value.tsx",
+          "hash": "16983506170626768258"
+        },
+        {
+          "file": "components/clinical/observation-summary/src/index.tsx",
+          "hash": "9393353433848974954"
+        },
+        {
+          "file": "components/clinical/observation-summary/src/molecules/observation-redacted.tsx",
+          "hash": "7351036471650156342"
+        },
+        {
+          "file": "components/clinical/observation-summary/src/organisms/observation-summary-item.tsx",
+          "hash": "4433104061223843048"
+        },
+        {
+          "file": "components/clinical/observation-summary/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/involved-team-summary": [
+        {
+          "file": "components/clinical/involved-team-summary/CHANGELOG.md",
+          "hash": "1371399779680799112"
+        },
+        {
+          "file": "components/clinical/involved-team-summary/README.md",
+          "hash": "15664950004027539772"
+        },
+        {
+          "file": "components/clinical/involved-team-summary/package.json",
+          "hash": "8972005988288907224",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/list",
+            "@ltht-react/styles",
+            "@ltht-react/type-summary",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/clinical/involved-team-summary/src/atoms/involved-team-description.tsx",
+          "hash": "4682196024656024934"
+        },
+        {
+          "file": "components/clinical/involved-team-summary/src/atoms/involved-team-title.tsx",
+          "hash": "4457484924305155430"
+        },
+        {
+          "file": "components/clinical/involved-team-summary/src/atoms/involved-team-type.tsx",
+          "hash": "18438865527551205645"
+        },
+        {
+          "file": "components/clinical/involved-team-summary/src/index.tsx",
+          "hash": "18146464986564318532"
+        },
+        {
+          "file": "components/clinical/involved-team-summary/src/molecules/involved-team-redacted.tsx",
+          "hash": "17513585788908348486"
+        },
+        {
+          "file": "components/clinical/involved-team-summary/src/organisms/involved-team-summary.tsx",
+          "hash": "18057883414318240946"
+        },
+        {
+          "file": "components/clinical/involved-team-summary/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/medication": [
+        {
+          "file": "components/clinical/shared/medication/CHANGELOG.md",
+          "hash": "6825351227288896442"
+        },
+        {
+          "file": "components/clinical/shared/medication/README.md",
+          "hash": "9710489929630776394"
+        },
+        {
+          "file": "components/clinical/shared/medication/package.json",
+          "hash": "15404916687351392968",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/hooks",
+            "@ltht-react/problem",
+            "@ltht-react/styles",
+            "@ltht-react/type-summary",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/clinical/shared/medication/src/atoms/index.ts",
+          "hash": "6886516155909608570"
+        },
+        {
+          "file": "components/clinical/shared/medication/src/atoms/medication-dosage-instruction.tsx",
+          "hash": "1653041993915620711"
+        },
+        {
+          "file": "components/clinical/shared/medication/src/atoms/medication-dosage-reason.tsx",
+          "hash": "7139482772697118443"
+        },
+        {
+          "file": "components/clinical/shared/medication/src/atoms/medication-dosage-start-date.tsx",
+          "hash": "2405201699185417310"
+        },
+        {
+          "file": "components/clinical/shared/medication/src/atoms/medication-dosage.tsx",
+          "hash": "8486845461869634901"
+        },
+        {
+          "file": "components/clinical/shared/medication/src/index.tsx",
+          "hash": "350484401536987742"
+        },
+        {
+          "file": "components/clinical/shared/medication/src/molecules/index.tsx",
+          "hash": "8548682789944631244"
+        },
+        {
+          "file": "components/clinical/shared/medication/src/molecules/medication-dosage-instructions.tsx",
+          "hash": "6751457216989921511"
+        },
+        {
+          "file": "components/clinical/shared/medication/tsconfig.json",
+          "hash": "14030160959979447829"
+        }
+      ],
+      "@ltht-react/hospital-stay-detail": [
+        {
+          "file": "components/clinical/hospital-stay-detail/CHANGELOG.md",
+          "hash": "7998222125459642918"
+        },
+        {
+          "file": "components/clinical/hospital-stay-detail/README.md",
+          "hash": "6989029089521900501"
+        },
+        {
+          "file": "components/clinical/hospital-stay-detail/package.json",
+          "hash": "14849472023382253594",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/description-list",
             "@ltht-react/styles",
             "@ltht-react/type-detail",
             "@ltht-react/types",
@@ -3167,11 +2835,840 @@
           ]
         },
         {
-          "file": "components/clinical/medication-detail/src/index.tsx",
-          "hash": "14719796725091544793"
+          "file": "components/clinical/hospital-stay-detail/src/index.tsx",
+          "hash": "11996603944568763122"
         },
         {
-          "file": "components/clinical/medication-detail/tsconfig.json",
+          "file": "components/clinical/hospital-stay-detail/src/molecules/encounter-hospitalisation-detail.tsx",
+          "hash": "2622596938371306024"
+        },
+        {
+          "file": "components/clinical/hospital-stay-detail/src/molecules/encounter-participant-detail.tsx",
+          "hash": "710872568136144137"
+        },
+        {
+          "file": "components/clinical/hospital-stay-detail/src/molecules/encounter-status-history-detail.tsx",
+          "hash": "10531718801903884839"
+        },
+        {
+          "file": "components/clinical/hospital-stay-detail/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/input": [
+        {
+          "file": "components/styled/input/CHANGELOG.md",
+          "hash": "13596020522780848075"
+        },
+        {
+          "file": "components/styled/input/README.md",
+          "hash": "4204801993426056500"
+        },
+        {
+          "file": "components/styled/input/package.json",
+          "hash": "12896977147482785279",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/button",
+            "@ltht-react/icon",
+            "@ltht-react/styles",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:@popperjs/core",
+            "npm:date-fns",
+            "npm:focus-trap-react",
+            "npm:prop-types",
+            "npm:react",
+            "npm:react-day-picker",
+            "npm:react-popper"
+          ]
+        },
+        {
+          "file": "components/styled/input/src/atoms/checkbox.tsx",
+          "hash": "14672223474314726209"
+        },
+        {
+          "file": "components/styled/input/src/atoms/daypicker.tsx",
+          "hash": "12825170080822456902"
+        },
+        {
+          "file": "components/styled/input/src/atoms/index.tsx",
+          "hash": "8234280827908367821"
+        },
+        {
+          "file": "components/styled/input/src/atoms/radio.tsx",
+          "hash": "4377745321776120154"
+        },
+        {
+          "file": "components/styled/input/src/atoms/text.tsx",
+          "hash": "18362801846541904626"
+        },
+        {
+          "file": "components/styled/input/src/atoms/toggle.tsx",
+          "hash": "4088692980578747664"
+        },
+        {
+          "file": "components/styled/input/src/index.tsx",
+          "hash": "350484401536987742"
+        },
+        {
+          "file": "components/styled/input/src/molecules/daypicker-range.tsx",
+          "hash": "991457275540127681"
+        },
+        {
+          "file": "components/styled/input/src/molecules/index.tsx",
+          "hash": "3742677710674423723"
+        },
+        {
+          "file": "components/styled/input/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/badge": [
+        {
+          "file": "components/styled/badge/CHANGELOG.md",
+          "hash": "11568010820862214187"
+        },
+        {
+          "file": "components/styled/badge/README.md",
+          "hash": "8508958580458613363"
+        },
+        {
+          "file": "components/styled/badge/package.json",
+          "hash": "5759366093861940746",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/icon",
+            "@ltht-react/styles",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/styled/badge/src/index.tsx",
+          "hash": "13176097960268064863"
+        },
+        {
+          "file": "components/styled/badge/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/flag-detail": [
+        {
+          "file": "components/clinical/flag-detail/CHANGELOG.md",
+          "hash": "9936949668940756085"
+        },
+        {
+          "file": "components/clinical/flag-detail/README.md",
+          "hash": "11428014957416231208"
+        },
+        {
+          "file": "components/clinical/flag-detail/package.json",
+          "hash": "14336419217614529831",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/button",
+            "@ltht-react/styles",
+            "@ltht-react/type-detail",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/clinical/flag-detail/src/index.tsx",
+          "hash": "2212135795200102511"
+        },
+        {
+          "file": "components/clinical/flag-detail/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/community-treatment-order-detail": [
+        {
+          "file": "components/clinical/community-treatment-order-detail/CHANGELOG.md",
+          "hash": "1264652711112497487"
+        },
+        {
+          "file": "components/clinical/community-treatment-order-detail/README.md",
+          "hash": "5500521074122085300"
+        },
+        {
+          "file": "components/clinical/community-treatment-order-detail/package.json",
+          "hash": "16376778989996261957",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/styles",
+            "@ltht-react/type-detail",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/clinical/community-treatment-order-detail/src/index.tsx",
+          "hash": "3037016154151911710"
+        },
+        {
+          "file": "components/clinical/community-treatment-order-detail/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/involved-team-detail": [
+        {
+          "file": "components/clinical/involved-team-detail/CHANGELOG.md",
+          "hash": "4131889930497853094"
+        },
+        {
+          "file": "components/clinical/involved-team-detail/README.md",
+          "hash": "11345317823586616117"
+        },
+        {
+          "file": "components/clinical/involved-team-detail/package.json",
+          "hash": "10942417250370455805",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/styles",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/clinical/involved-team-detail/src/index.tsx",
+          "hash": "5067362386692170194"
+        },
+        {
+          "file": "components/clinical/involved-team-detail/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/hospital-stay-summary": [
+        {
+          "file": "components/clinical/hospital-stay-summary/CHANGELOG.md",
+          "hash": "9806163646616502336"
+        },
+        {
+          "file": "components/clinical/hospital-stay-summary/README.md",
+          "hash": "13522977501635625912"
+        },
+        {
+          "file": "components/clinical/hospital-stay-summary/package.json",
+          "hash": "5001239586278133898",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/list",
+            "@ltht-react/styles",
+            "@ltht-react/type-summary",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:moment",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/clinical/hospital-stay-summary/src/atoms/admission-length-of-stay.tsx",
+          "hash": "5795488232793526459"
+        },
+        {
+          "file": "components/clinical/hospital-stay-summary/src/atoms/admission-period-summary.tsx",
+          "hash": "286510446541643614"
+        },
+        {
+          "file": "components/clinical/hospital-stay-summary/src/atoms/hospital-stay-description.tsx",
+          "hash": "2401808589251290094"
+        },
+        {
+          "file": "components/clinical/hospital-stay-summary/src/atoms/hospital-stay-service-provider.tsx",
+          "hash": "4789606200014254662"
+        },
+        {
+          "file": "components/clinical/hospital-stay-summary/src/index.tsx",
+          "hash": "2452962743580409200"
+        },
+        {
+          "file": "components/clinical/hospital-stay-summary/src/molecules/admission-redacted.tsx",
+          "hash": "6856704368190938509"
+        },
+        {
+          "file": "components/clinical/hospital-stay-summary/src/molecules/hospital-stay-redacted.tsx",
+          "hash": "9619326210507531744"
+        },
+        {
+          "file": "components/clinical/hospital-stay-summary/src/organisms/admission-summary.tsx",
+          "hash": "14855438146116267945"
+        },
+        {
+          "file": "components/clinical/hospital-stay-summary/src/organisms/hospital-stay-summary.tsx",
+          "hash": "14696985418794113436"
+        },
+        {
+          "file": "components/clinical/hospital-stay-summary/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/type-detail": [
+        {
+          "file": "components/clinical/shared/type-detail/CHANGELOG.md",
+          "hash": "1964017285850285095"
+        },
+        {
+          "file": "components/clinical/shared/type-detail/README.md",
+          "hash": "9996065045440485725"
+        },
+        {
+          "file": "components/clinical/shared/type-detail/package.json",
+          "hash": "336749699971172707",
+          "deps": [
+            "npm:@types/ent",
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/description-list",
+            "@ltht-react/icon",
+            "@ltht-react/list",
+            "@ltht-react/styles",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:ent",
+            "npm:html-react-parser",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/clinical/shared/type-detail/src/atoms/detail-view-component.ts",
+          "hash": "992469998854103931"
+        },
+        {
+          "file": "components/clinical/shared/type-detail/src/index.tsx",
+          "hash": "7457806973057905659"
+        },
+        {
+          "file": "components/clinical/shared/type-detail/src/molecules/annotation-list-detail.tsx",
+          "hash": "6391055582454293905"
+        },
+        {
+          "file": "components/clinical/shared/type-detail/src/molecules/asserter-detail.tsx",
+          "hash": "2295569284859600275"
+        },
+        {
+          "file": "components/clinical/shared/type-detail/src/molecules/codeable-concept-detail.tsx",
+          "hash": "9910568943398948014"
+        },
+        {
+          "file": "components/clinical/shared/type-detail/src/molecules/codeable-concept-list-detail.tsx",
+          "hash": "708228373332460153"
+        },
+        {
+          "file": "components/clinical/shared/type-detail/src/molecules/coding-detail.tsx",
+          "hash": "2027407938175172743"
+        },
+        {
+          "file": "components/clinical/shared/type-detail/src/molecules/coding-list-detail.tsx",
+          "hash": "11148676876791397333"
+        },
+        {
+          "file": "components/clinical/shared/type-detail/src/molecules/datetime-detail.tsx",
+          "hash": "4993000441537838629"
+        },
+        {
+          "file": "components/clinical/shared/type-detail/src/molecules/index.ts",
+          "hash": "12272891009749853111"
+        },
+        {
+          "file": "components/clinical/shared/type-detail/src/molecules/narrative-detail.tsx",
+          "hash": "13016781910652719928"
+        },
+        {
+          "file": "components/clinical/shared/type-detail/src/molecules/nested-list-detail.tsx",
+          "hash": "1824461792890462102"
+        },
+        {
+          "file": "components/clinical/shared/type-detail/src/molecules/period-detail.tsx",
+          "hash": "6302306315744504078"
+        },
+        {
+          "file": "components/clinical/shared/type-detail/src/molecules/resource-reference-detail.tsx",
+          "hash": "5932797519948449090"
+        },
+        {
+          "file": "components/clinical/shared/type-detail/src/molecules/resource-reference-list-detail.tsx",
+          "hash": "17773145830712900918"
+        },
+        {
+          "file": "components/clinical/shared/type-detail/src/molecules/string-detail.tsx",
+          "hash": "5954063563596773784"
+        },
+        {
+          "file": "components/clinical/shared/type-detail/src/organisms/collapsible-detail-collection.tsx",
+          "hash": "15653118225924239949"
+        },
+        {
+          "file": "components/clinical/shared/type-detail/src/organisms/identifier-detail.tsx",
+          "hash": "704759279464000793"
+        },
+        {
+          "file": "components/clinical/shared/type-detail/tsconfig.json",
+          "hash": "14030160959979447829"
+        }
+      ],
+      "@ltht-react/eform": [
+        {
+          "file": "components/clinical/eForm/CHANGELOG.md",
+          "hash": "7455573880984218694"
+        },
+        {
+          "file": "components/clinical/eForm/README.md",
+          "hash": "17001304688619731845"
+        },
+        {
+          "file": "components/clinical/eForm/package.json",
+          "hash": "11906378243898793434",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/styles",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/clinical/eForm/src/index.tsx",
+          "hash": "11769138386009956727"
+        },
+        {
+          "file": "components/clinical/eForm/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/hooks": [
+        {
+          "file": "packages/hooks/CHANGELOG.md",
+          "hash": "15881662490714108615"
+        },
+        {
+          "file": "packages/hooks/README.md",
+          "hash": "4910454973324908562"
+        },
+        {
+          "file": "packages/hooks/package.json",
+          "hash": "5830749595364782509",
+          "deps": [
+            "npm:@testing-library/jest-dom",
+            "npm:@testing-library/react",
+            "npm:@testing-library/react-hooks",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "packages/hooks/src/atoms/index.tsx",
+          "hash": "12684361762271033156"
+        },
+        {
+          "file": "packages/hooks/src/atoms/useElementSize.test.tsx",
+          "hash": "8889249467189918719"
+        },
+        {
+          "file": "packages/hooks/src/atoms/useElementSize.ts",
+          "hash": "4622272795620387661"
+        },
+        {
+          "file": "packages/hooks/src/atoms/useWindowSize.test.ts",
+          "hash": "18222171973322950921"
+        },
+        {
+          "file": "packages/hooks/src/atoms/useWindowSize.tsx",
+          "hash": "7942893470201383141"
+        },
+        {
+          "file": "packages/hooks/src/index.tsx",
+          "hash": "2922146266981085424"
+        },
+        {
+          "file": "packages/hooks/tsconfig.json",
+          "hash": "13466882084237868307"
+        }
+      ],
+      "@ltht-react/utils": [
+        {
+          "file": "packages/utils/CHANGELOG.md",
+          "hash": "6657201901948811499"
+        },
+        {
+          "file": "packages/utils/README.md",
+          "hash": "4929825607928160320"
+        },
+        {
+          "file": "packages/utils/package.json",
+          "hash": "9354249308436257981",
+          "deps": [
+            "@ltht-react/styles",
+            "@ltht-react/types",
+            "npm:date-fns",
+            "npm:html-react-parser"
+          ]
+        },
+        {
+          "file": "packages/utils/src/atoms/allergy-intolerance-category-code.test.ts",
+          "hash": "12418629254423658542"
+        },
+        {
+          "file": "packages/utils/src/atoms/allergy-intolerance-category-code.ts",
+          "hash": "14160881927253981809"
+        },
+        {
+          "file": "packages/utils/src/atoms/codeable-concept.test.ts",
+          "hash": "11324366871804632771"
+        },
+        {
+          "file": "packages/utils/src/atoms/codeable-concept.ts",
+          "hash": "4990523620859049707"
+        },
+        {
+          "file": "packages/utils/src/atoms/ensure-maybe.ts",
+          "hash": "16106854645782892192"
+        },
+        {
+          "file": "packages/utils/src/atoms/extensions.test.ts",
+          "hash": "3877462282197070943"
+        },
+        {
+          "file": "packages/utils/src/atoms/extensions.ts",
+          "hash": "13865111231429014575"
+        },
+        {
+          "file": "packages/utils/src/atoms/index.ts",
+          "hash": "8998389737790318462"
+        },
+        {
+          "file": "packages/utils/src/atoms/isDesktopView.test.ts",
+          "hash": "5115261329092422989"
+        },
+        {
+          "file": "packages/utils/src/atoms/isDesktopView.ts",
+          "hash": "8806531306475495965"
+        },
+        {
+          "file": "packages/utils/src/atoms/isMobileView.test.ts",
+          "hash": "14602631656611575534"
+        },
+        {
+          "file": "packages/utils/src/atoms/isMobileView.ts",
+          "hash": "4941162621388702083"
+        },
+        {
+          "file": "packages/utils/src/atoms/isTabletView.test.ts",
+          "hash": "7422605341526022910"
+        },
+        {
+          "file": "packages/utils/src/atoms/isTabletView.ts",
+          "hash": "16987269330616454040"
+        },
+        {
+          "file": "packages/utils/src/atoms/isWidescreenView.test.ts",
+          "hash": "2772761075385430233"
+        },
+        {
+          "file": "packages/utils/src/atoms/isWidescreenView.ts",
+          "hash": "14396504055457032014"
+        },
+        {
+          "file": "packages/utils/src/atoms/medication-title-separator.ts",
+          "hash": "18433986918612799655"
+        },
+        {
+          "file": "packages/utils/src/atoms/metadata.test.ts",
+          "hash": "14229615993232418120"
+        },
+        {
+          "file": "packages/utils/src/atoms/metadata.ts",
+          "hash": "15288690911491206672"
+        },
+        {
+          "file": "packages/utils/src/atoms/parse-html.tsx",
+          "hash": "10839591561497454840"
+        },
+        {
+          "file": "packages/utils/src/atoms/partial-date-time.test.ts",
+          "hash": "10946508353321517874"
+        },
+        {
+          "file": "packages/utils/src/atoms/partial-date-time.ts",
+          "hash": "11655301794860833422"
+        },
+        {
+          "file": "packages/utils/src/atoms/patient.test.ts",
+          "hash": "9628798024885654733"
+        },
+        {
+          "file": "packages/utils/src/atoms/patient.ts",
+          "hash": "16015042015125518122"
+        },
+        {
+          "file": "packages/utils/src/atoms/period.test.ts",
+          "hash": "7674584626121846557"
+        },
+        {
+          "file": "packages/utils/src/atoms/period.ts",
+          "hash": "16700773087915366080"
+        },
+        {
+          "file": "packages/utils/src/atoms/quantity.test.ts",
+          "hash": "10938710561704456377"
+        },
+        {
+          "file": "packages/utils/src/atoms/quantity.ts",
+          "hash": "659143033207200973"
+        },
+        {
+          "file": "packages/utils/src/atoms/range.test.ts",
+          "hash": "13731753670600637258"
+        },
+        {
+          "file": "packages/utils/src/atoms/range.ts",
+          "hash": "2190221374992543680"
+        },
+        {
+          "file": "packages/utils/src/atoms/resource-reference.test.ts",
+          "hash": "8564592052969350053"
+        },
+        {
+          "file": "packages/utils/src/atoms/resource-reference.ts",
+          "hash": "10356314635174775073"
+        },
+        {
+          "file": "packages/utils/src/atoms/strip-bb-tags.test.ts",
+          "hash": "1259925781573960524"
+        },
+        {
+          "file": "packages/utils/src/atoms/strip-bb-tags.ts",
+          "hash": "13433736274360605297"
+        },
+        {
+          "file": "packages/utils/src/atoms/strip-html-tags.test.ts",
+          "hash": "17002488110627134373"
+        },
+        {
+          "file": "packages/utils/src/atoms/strip-html-tags.ts",
+          "hash": "17475097931855323813"
+        },
+        {
+          "file": "packages/utils/src/atoms/title-case.test.ts",
+          "hash": "11652295066209613141"
+        },
+        {
+          "file": "packages/utils/src/atoms/title-case.ts",
+          "hash": "11238892200453833663"
+        },
+        {
+          "file": "packages/utils/src/index.ts",
+          "hash": "1095974124884110423"
+        },
+        {
+          "file": "packages/utils/tsconfig.json",
+          "hash": "13466882084237868307"
+        }
+      ],
+      "@ltht-react/button": [
+        {
+          "file": "components/styled/button/CHANGELOG.md",
+          "hash": "3282686536430777157"
+        },
+        {
+          "file": "components/styled/button/README.md",
+          "hash": "8559606701067689934"
+        },
+        {
+          "file": "components/styled/button/package.json",
+          "hash": "5350305135796990758",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/icon",
+            "@ltht-react/styles",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/styled/button/src/atoms/button.tsx",
+          "hash": "1588565908599113000"
+        },
+        {
+          "file": "components/styled/button/src/atoms/primary-button.tsx",
+          "hash": "17562501414488785759"
+        },
+        {
+          "file": "components/styled/button/src/index.tsx",
+          "hash": "5617447727921308854"
+        },
+        {
+          "file": "components/styled/button/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/list": [
+        {
+          "file": "components/styled/list/CHANGELOG.md",
+          "hash": "12787859734008719070"
+        },
+        {
+          "file": "components/styled/list/README.md",
+          "hash": "8026757007836136042"
+        },
+        {
+          "file": "components/styled/list/package.json",
+          "hash": "2295968406554669535",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/styles",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/styled/list/src/atoms/index.tsx",
+          "hash": "4355651380859282196"
+        },
+        {
+          "file": "components/styled/list/src/atoms/list-item.tsx",
+          "hash": "9588917724327494322"
+        },
+        {
+          "file": "components/styled/list/src/atoms/ordered-list.tsx",
+          "hash": "8967548888784880974"
+        },
+        {
+          "file": "components/styled/list/src/atoms/unordered-list.tsx",
+          "hash": "11812343709584771506"
+        },
+        {
+          "file": "components/styled/list/src/index.tsx",
+          "hash": "1095974124884110423"
+        },
+        {
+          "file": "components/styled/list/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/header": [
+        {
+          "file": "components/styled/header/CHANGELOG.md",
+          "hash": "8482726725484295598"
+        },
+        {
+          "file": "components/styled/header/README.md",
+          "hash": "2651804742800409879"
+        },
+        {
+          "file": "components/styled/header/package.json",
+          "hash": "1348077067933610435",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/styles",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/styled/header/src/atoms/index.ts",
+          "hash": "10254243700754382437"
+        },
+        {
+          "file": "components/styled/header/src/atoms/page-header.tsx",
+          "hash": "4325950269787434790"
+        },
+        {
+          "file": "components/styled/header/src/atoms/sub-header.tsx",
+          "hash": "15174131853426581437"
+        },
+        {
+          "file": "components/styled/header/src/index.tsx",
+          "hash": "1095974124884110423"
+        },
+        {
+          "file": "components/styled/header/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/form": [
+        {
+          "file": "components/styled/form/CHANGELOG.md",
+          "hash": "1408305782126753503"
+        },
+        {
+          "file": "components/styled/form/README.md",
+          "hash": "11669074168718828879"
+        },
+        {
+          "file": "components/styled/form/package.json",
+          "hash": "9166239956550541909",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/styles",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/styled/form/src/atoms/form-check.tsx",
+          "hash": "200426209989785013"
+        },
+        {
+          "file": "components/styled/form/src/index.tsx",
+          "hash": "10729249926479105027"
+        },
+        {
+          "file": "components/styled/form/src/molecules/form.tsx",
+          "hash": "5742035857807502113"
+        },
+        {
+          "file": "components/styled/form/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/observation-detail": [
+        {
+          "file": "components/clinical/observation-detail/CHANGELOG.md",
+          "hash": "4976315369636837964"
+        },
+        {
+          "file": "components/clinical/observation-detail/README.md",
+          "hash": "4263139520997201651"
+        },
+        {
+          "file": "components/clinical/observation-detail/package.json",
+          "hash": "2711930731814255641",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/styles",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/clinical/observation-detail/src/index.tsx",
+          "hash": "3427771679336020159"
+        },
+        {
+          "file": "components/clinical/observation-detail/tsconfig.json",
           "hash": "7615905302925360953"
         }
       ],
@@ -3238,134 +3735,6 @@
           "hash": "15138491533014631465"
         }
       ],
-      "@ltht-react/menu": [
-        {
-          "file": "components/styled/menu/CHANGELOG.md",
-          "hash": "2906410385959755818"
-        },
-        {
-          "file": "components/styled/menu/README.md",
-          "hash": "9935152147014714516"
-        },
-        {
-          "file": "components/styled/menu/package.json",
-          "hash": "16932457771571288220",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/button",
-            "@ltht-react/icon",
-            "@ltht-react/styles",
-            "npm:focus-trap-react@10.2.3",
-            "npm:react",
-            "npm:react-popper"
-          ]
-        },
-        {
-          "file": "components/styled/menu/src/index.tsx",
-          "hash": "10282951804343635595"
-        },
-        {
-          "file": "components/styled/menu/src/molecules/action-menu.tsx",
-          "hash": "16137816275469790931"
-        },
-        {
-          "file": "components/styled/menu/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/community-treatment-order-detail": [
-        {
-          "file": "components/clinical/community-treatment-order-detail/CHANGELOG.md",
-          "hash": "1264652711112497487"
-        },
-        {
-          "file": "components/clinical/community-treatment-order-detail/README.md",
-          "hash": "5500521074122085300"
-        },
-        {
-          "file": "components/clinical/community-treatment-order-detail/package.json",
-          "hash": "16376778989996261957",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/styles",
-            "@ltht-react/type-detail",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/clinical/community-treatment-order-detail/src/index.tsx",
-          "hash": "3037016154151911710"
-        },
-        {
-          "file": "components/clinical/community-treatment-order-detail/tsconfig.json",
-          "hash": "7615905302925360953"
-        }
-      ],
-      "@ltht-react/medication": [
-        {
-          "file": "components/clinical/shared/medication/CHANGELOG.md",
-          "hash": "6825351227288896442"
-        },
-        {
-          "file": "components/clinical/shared/medication/README.md",
-          "hash": "9710489929630776394"
-        },
-        {
-          "file": "components/clinical/shared/medication/package.json",
-          "hash": "15404916687351392968",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "@ltht-react/hooks",
-            "@ltht-react/problem",
-            "@ltht-react/styles",
-            "@ltht-react/type-summary",
-            "@ltht-react/types",
-            "@ltht-react/utils",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "components/clinical/shared/medication/src/atoms/index.ts",
-          "hash": "6886516155909608570"
-        },
-        {
-          "file": "components/clinical/shared/medication/src/atoms/medication-dosage-instruction.tsx",
-          "hash": "1653041993915620711"
-        },
-        {
-          "file": "components/clinical/shared/medication/src/atoms/medication-dosage-reason.tsx",
-          "hash": "7139482772697118443"
-        },
-        {
-          "file": "components/clinical/shared/medication/src/atoms/medication-dosage-start-date.tsx",
-          "hash": "2405201699185417310"
-        },
-        {
-          "file": "components/clinical/shared/medication/src/atoms/medication-dosage.tsx",
-          "hash": "8486845461869634901"
-        },
-        {
-          "file": "components/clinical/shared/medication/src/index.tsx",
-          "hash": "350484401536987742"
-        },
-        {
-          "file": "components/clinical/shared/medication/src/molecules/index.tsx",
-          "hash": "8548682789944631244"
-        },
-        {
-          "file": "components/clinical/shared/medication/src/molecules/medication-dosage-instructions.tsx",
-          "hash": "6751457216989921511"
-        },
-        {
-          "file": "components/clinical/shared/medication/tsconfig.json",
-          "hash": "14030160959979447829"
-        }
-      ],
       "@ltht-react/appointment-summary": [
         {
           "file": "components/clinical/appointment-summary/CHANGELOG.md",
@@ -3418,23 +3787,200 @@
           "hash": "7615905302925360953"
         }
       ],
-      "@ltht-react/flag-summary": [
+      "@ltht-react/card": [
         {
-          "file": "components/clinical/flag-summary/CHANGELOG.md",
-          "hash": "16973681327338435914"
+          "file": "components/styled/card/CHANGELOG.md",
+          "hash": "12755300028776932485"
         },
         {
-          "file": "components/clinical/flag-summary/README.md",
-          "hash": "12030182470134735218"
+          "file": "components/styled/card/README.md",
+          "hash": "14244893276497581733"
         },
         {
-          "file": "components/clinical/flag-summary/package.json",
-          "hash": "1888350552520813681",
+          "file": "components/styled/card/package.json",
+          "hash": "10183510646059220137",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/banner",
+            "@ltht-react/icon",
+            "@ltht-react/styles",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:classnames",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/styled/card/src/atoms/banner.tsx",
+          "hash": "4509911521371871180"
+        },
+        {
+          "file": "components/styled/card/src/atoms/body.tsx",
+          "hash": "8305078028149400434"
+        },
+        {
+          "file": "components/styled/card/src/atoms/footer.tsx",
+          "hash": "14397835332290524027"
+        },
+        {
+          "file": "components/styled/card/src/atoms/header.tsx",
+          "hash": "14792800151120570051"
+        },
+        {
+          "file": "components/styled/card/src/atoms/list-item.tsx",
+          "hash": "11711708771017068436"
+        },
+        {
+          "file": "components/styled/card/src/atoms/list.tsx",
+          "hash": "4519059522539030396"
+        },
+        {
+          "file": "components/styled/card/src/atoms/subtitle.tsx",
+          "hash": "15332353774582131948"
+        },
+        {
+          "file": "components/styled/card/src/atoms/text.tsx",
+          "hash": "18097105779533125479"
+        },
+        {
+          "file": "components/styled/card/src/atoms/title.tsx",
+          "hash": "11746314440937754072"
+        },
+        {
+          "file": "components/styled/card/src/index.tsx",
+          "hash": "646375799589889054"
+        },
+        {
+          "file": "components/styled/card/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/patient-banner": [
+        {
+          "file": "components/clinical/patient-banner/CHANGELOG.md",
+          "hash": "3574581053346712974"
+        },
+        {
+          "file": "components/clinical/patient-banner/README.md",
+          "hash": "8649985463351558319"
+        },
+        {
+          "file": "components/clinical/patient-banner/package.json",
+          "hash": "8524668702026393101",
           "deps": [
             "npm:@emotion/react",
             "npm:@emotion/styled",
             "@ltht-react/icon",
-            "@ltht-react/list",
+            "@ltht-react/styles",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/clinical/patient-banner/src/atoms/address.tsx",
+          "hash": "12791927049075582537"
+        },
+        {
+          "file": "components/clinical/patient-banner/src/atoms/age-at-death.tsx",
+          "hash": "5933269872206232569"
+        },
+        {
+          "file": "components/clinical/patient-banner/src/atoms/date-of-birth.tsx",
+          "hash": "8275719944544376089"
+        },
+        {
+          "file": "components/clinical/patient-banner/src/atoms/date-of-death.tsx",
+          "hash": "15471985126679129293"
+        },
+        {
+          "file": "components/clinical/patient-banner/src/atoms/gender.tsx",
+          "hash": "9441276263915215998"
+        },
+        {
+          "file": "components/clinical/patient-banner/src/atoms/name.tsx",
+          "hash": "17153142991979779728"
+        },
+        {
+          "file": "components/clinical/patient-banner/src/atoms/nhs-number.tsx",
+          "hash": "16499607927127662647"
+        },
+        {
+          "file": "components/clinical/patient-banner/src/atoms/pas-number.tsx",
+          "hash": "12693595036065447603"
+        },
+        {
+          "file": "components/clinical/patient-banner/src/atoms/ped-number.tsx",
+          "hash": "5722035055599072188"
+        },
+        {
+          "file": "components/clinical/patient-banner/src/index.tsx",
+          "hash": "5693807842233622761"
+        },
+        {
+          "file": "components/clinical/patient-banner/src/molecules/primary-info.tsx",
+          "hash": "12869454942483796926"
+        },
+        {
+          "file": "components/clinical/patient-banner/src/molecules/secondary-info.tsx",
+          "hash": "8084544142960197220"
+        },
+        {
+          "file": "components/clinical/patient-banner/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/select": [
+        {
+          "file": "components/styled/select/CHANGELOG.md",
+          "hash": "14735058215984873942"
+        },
+        {
+          "file": "components/styled/select/README.md",
+          "hash": "9005968423585824242"
+        },
+        {
+          "file": "components/styled/select/package.json",
+          "hash": "18269297759350562983",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/icon",
+            "@ltht-react/styles",
+            "@ltht-react/types",
+            "@ltht-react/utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "components/styled/select/src/index.tsx",
+          "hash": "4518650183272882038"
+        },
+        {
+          "file": "components/styled/select/tsconfig.json",
+          "hash": "7615905302925360953"
+        }
+      ],
+      "@ltht-react/medication-summary": [
+        {
+          "file": "components/clinical/medication-summary/CHANGELOG.md",
+          "hash": "16840713711859778296"
+        },
+        {
+          "file": "components/clinical/medication-summary/README.md",
+          "hash": "9176652186532805487"
+        },
+        {
+          "file": "components/clinical/medication-summary/package.json",
+          "hash": "9789803418974657431",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "@ltht-react/badge",
+            "@ltht-react/description-list",
+            "@ltht-react/icon",
+            "@ltht-react/medication",
             "@ltht-react/styles",
             "@ltht-react/type-summary",
             "@ltht-react/types",
@@ -3443,466 +3989,74 @@
           ]
         },
         {
-          "file": "components/clinical/flag-summary/src/atoms/flag-description.tsx",
-          "hash": "9841565890929419597"
+          "file": "components/clinical/medication-summary/src/atoms/medication-indication.tsx",
+          "hash": "2755724406763930499"
         },
         {
-          "file": "components/clinical/flag-summary/src/atoms/flag-icon.tsx",
-          "hash": "11288712845797191791"
+          "file": "components/clinical/medication-summary/src/atoms/medication-route.tsx",
+          "hash": "14095481232981291755"
         },
         {
-          "file": "components/clinical/flag-summary/src/atoms/flag-source.tsx",
-          "hash": "369168267410702885"
+          "file": "components/clinical/medication-summary/src/atoms/medication-title.tsx",
+          "hash": "12557413653602476612"
         },
         {
-          "file": "components/clinical/flag-summary/src/atoms/flag-status.tsx",
-          "hash": "4281251736007238241"
+          "file": "components/clinical/medication-summary/src/index.tsx",
+          "hash": "13335340452384237931"
         },
         {
-          "file": "components/clinical/flag-summary/src/atoms/flag-text.tsx",
-          "hash": "2030676909064525339"
+          "file": "components/clinical/medication-summary/src/molecules/medication-additional-info.tsx",
+          "hash": "14953931775287214813"
         },
         {
-          "file": "components/clinical/flag-summary/src/atoms/flag-title.tsx",
-          "hash": "8697254056678127136"
+          "file": "components/clinical/medication-summary/src/molecules/medication-redacted.tsx",
+          "hash": "4712570290594546547"
         },
         {
-          "file": "components/clinical/flag-summary/src/index.tsx",
-          "hash": "8922689741361179787"
+          "file": "components/clinical/medication-summary/src/organisms/medication-summary.tsx",
+          "hash": "3637294128321822772"
         },
         {
-          "file": "components/clinical/flag-summary/src/molecules/flag-identifier.tsx",
-          "hash": "6614679102544878220"
-        },
-        {
-          "file": "components/clinical/flag-summary/src/molecules/flag-redacted.tsx",
-          "hash": "4033646208570938204"
-        },
-        {
-          "file": "components/clinical/flag-summary/src/organisms/flag-summary.tsx",
-          "hash": "9139100806732046484"
-        },
-        {
-          "file": "components/clinical/flag-summary/tsconfig.json",
-          "hash": "4628655878588929964"
+          "file": "components/clinical/medication-summary/tsconfig.json",
+          "hash": "7615905302925360953"
         }
       ],
-      "@ltht-react/involved-team-detail": [
+      "@ltht-react/allergy-detail": [
         {
-          "file": "components/clinical/involved-team-detail/CHANGELOG.md",
-          "hash": "4131889930497853094"
+          "file": "components/clinical/allergy-detail/CHANGELOG.md",
+          "hash": "14907607492712927801"
         },
         {
-          "file": "components/clinical/involved-team-detail/README.md",
-          "hash": "11345317823586616117"
+          "file": "components/clinical/allergy-detail/README.md",
+          "hash": "15718687808207082779"
         },
         {
-          "file": "components/clinical/involved-team-detail/package.json",
-          "hash": "10942417250370455805",
+          "file": "components/clinical/allergy-detail/package.json",
+          "hash": "88211234549487918",
           "deps": [
             "npm:@emotion/react",
             "npm:@emotion/styled",
+            "@ltht-react/description-list",
             "@ltht-react/styles",
+            "@ltht-react/type-detail",
             "@ltht-react/types",
             "@ltht-react/utils",
             "npm:react"
           ]
         },
         {
-          "file": "components/clinical/involved-team-detail/src/index.tsx",
-          "hash": "5067362386692170194"
+          "file": "components/clinical/allergy-detail/src/atoms/allergy-onset-detail.tsx",
+          "hash": "8355657946468354332"
         },
         {
-          "file": "components/clinical/involved-team-detail/tsconfig.json",
+          "file": "components/clinical/allergy-detail/src/index.tsx",
+          "hash": "6213941027012847391"
+        },
+        {
+          "file": "components/clinical/allergy-detail/tsconfig.json",
           "hash": "7615905302925360953"
         }
       ]
-    },
-    "nonProjectFiles": [
-      {
-        "file": ".babelrc",
-        "hash": "6719487972184321338"
-      },
-      {
-        "file": ".eslintrc.js",
-        "hash": "14602696791399274267"
-      },
-      {
-        "file": ".github/workflows/lerna-version.yml",
-        "hash": "5315088757471915757"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "6258343485406661888"
-      },
-      {
-        "file": ".husky/.gitignore",
-        "hash": "10106645302852536800"
-      },
-      {
-        "file": ".husky/common.sh",
-        "hash": "5194138827896258697"
-      },
-      {
-        "file": ".husky/pre-push",
-        "hash": "6821566144887728197"
-      },
-      {
-        "file": ".npmignore",
-        "hash": "15017128897486042161"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "8971751130357465172"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "14670743726573620198"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "5221128533606677594"
-      },
-      {
-        "file": ".vscode/tasks.json",
-        "hash": "1915136431220223249"
-      },
-      {
-        "file": "JEST-MIGRATION-GUIDE.md",
-        "hash": "15804185381719523924"
-      },
-      {
-        "file": "README.md",
-        "hash": "6687176569967138240"
-      },
-      {
-        "file": "copy_files.sh",
-        "hash": "16588188443733002128"
-      },
-      {
-        "file": "healthcare-patient-management-implementation-plan.md",
-        "hash": "9191728854971006356"
-      },
-      {
-        "file": "jest-storybook-migration-plan.md",
-        "hash": "11859061302058804415"
-      },
-      {
-        "file": "jest.config.js",
-        "hash": "17716893762017131024"
-      },
-      {
-        "file": "lerna.json",
-        "hash": "12454645570838784818"
-      },
-      {
-        "file": "nx.json",
-        "hash": "9381841161539578234"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "494951746162828320"
-      },
-      {
-        "file": "package.json",
-        "hash": "10288724062607791680"
-      },
-      {
-        "file": "patient-management-app/README.md",
-        "hash": "13438313111811052261"
-      },
-      {
-        "file": "patient-management-app/TYPESCRIPT-ERRORS-FIXED.md",
-        "hash": "13313305557245825145"
-      },
-      {
-        "file": "patient-management-app/package-lock.json",
-        "hash": "17809680738115796841"
-      },
-      {
-        "file": "patient-management-app/package.json",
-        "hash": "11379849827636573165"
-      },
-      {
-        "file": "patient-management-app/public/index.html",
-        "hash": "17327347030331520622"
-      },
-      {
-        "file": "patient-management-app/public/manifest.json",
-        "hash": "4244719170149540587"
-      },
-      {
-        "file": "patient-management-app/src/App.tsx",
-        "hash": "7885291749077634596"
-      },
-      {
-        "file": "patient-management-app/src/components/common/ErrorMessage.tsx",
-        "hash": "8487371841963956884"
-      },
-      {
-        "file": "patient-management-app/src/components/common/LoadingSpinner.tsx",
-        "hash": "13938584732801793145"
-      },
-      {
-        "file": "patient-management-app/src/components/common/ProtectedRoute.tsx",
-        "hash": "13075768388272723231"
-      },
-      {
-        "file": "patient-management-app/src/components/layout/Header.tsx",
-        "hash": "7522588571020998939"
-      },
-      {
-        "file": "patient-management-app/src/components/layout/MainLayout.tsx",
-        "hash": "2225040585278922630"
-      },
-      {
-        "file": "patient-management-app/src/components/layout/Sidebar.tsx",
-        "hash": "17694901242705235572"
-      },
-      {
-        "file": "patient-management-app/src/components/ltht-wrappers/index.tsx",
-        "hash": "10232298788680064726"
-      },
-      {
-        "file": "patient-management-app/src/components/patient/PatientListItem.tsx",
-        "hash": "2083667534998202747"
-      },
-      {
-        "file": "patient-management-app/src/contexts/AuthContext.tsx",
-        "hash": "14647699477381923607"
-      },
-      {
-        "file": "patient-management-app/src/contexts/PatientContext.tsx",
-        "hash": "827860490587622185"
-      },
-      {
-        "file": "patient-management-app/src/docs/COMPREHENSIVE-TYPESCRIPT-FIX-GUIDE.md",
-        "hash": "16891574869047798786"
-      },
-      {
-        "file": "patient-management-app/src/docs/LTHT-TYPESCRIPT-FIX-GUIDE.md",
-        "hash": "11265069064683387782"
-      },
-      {
-        "file": "patient-management-app/src/docs/TYPESCRIPT-ERROR-FIXES-SUMMARY.md",
-        "hash": "6834615956361435724"
-      },
-      {
-        "file": "patient-management-app/src/import-test.tsx",
-        "hash": "14785325111622828542"
-      },
-      {
-        "file": "patient-management-app/src/index.css",
-        "hash": "16239763550644040459"
-      },
-      {
-        "file": "patient-management-app/src/index.tsx",
-        "hash": "5433157100817344100"
-      },
-      {
-        "file": "patient-management-app/src/pages/Dashboard.tsx",
-        "hash": "9270021782547333148"
-      },
-      {
-        "file": "patient-management-app/src/pages/Login.tsx",
-        "hash": "6600727081799519600"
-      },
-      {
-        "file": "patient-management-app/src/pages/appointment/AppointmentDetail.tsx",
-        "hash": "10773178084972253464"
-      },
-      {
-        "file": "patient-management-app/src/pages/appointment/AppointmentList.tsx",
-        "hash": "13627592109545971114"
-      },
-      {
-        "file": "patient-management-app/src/pages/appointment/AppointmentSchedule.tsx",
-        "hash": "272169720147416936"
-      },
-      {
-        "file": "patient-management-app/src/pages/medication/MedicationDetail.tsx",
-        "hash": "10130571328121367754"
-      },
-      {
-        "file": "patient-management-app/src/pages/medication/MedicationList.tsx",
-        "hash": "6969676491361115327"
-      },
-      {
-        "file": "patient-management-app/src/pages/medication/PrescriptionForm.fixed.tsx",
-        "hash": "6867885364508466331"
-      },
-      {
-        "file": "patient-management-app/src/pages/medication/PrescriptionForm.tsx",
-        "hash": "9197631355923643658"
-      },
-      {
-        "file": "patient-management-app/src/pages/patient/PatientDetail.tsx",
-        "hash": "5614846458328019473"
-      },
-      {
-        "file": "patient-management-app/src/pages/patient/PatientList.tsx",
-        "hash": "12572798689003701185"
-      },
-      {
-        "file": "patient-management-app/src/services/api/patientService.ts",
-        "hash": "17686706366485598609"
-      },
-      {
-        "file": "patient-management-app/src/services/auth/authService.ts",
-        "hash": "8736436560655279416"
-      },
-      {
-        "file": "patient-management-app/src/theme.ts",
-        "hash": "11232733411184485053"
-      },
-      {
-        "file": "patient-management-app/src/types/component-composition-fixes.d.ts",
-        "hash": "16121345815506164939"
-      },
-      {
-        "file": "patient-management-app/src/types/external-modules.d.ts",
-        "hash": "6775065122032537942"
-      },
-      {
-        "file": "patient-management-app/src/types/index.d.ts",
-        "hash": "18304624818301536729"
-      },
-      {
-        "file": "patient-management-app/src/types/ltht-components.d.ts",
-        "hash": "1938294984925224351"
-      },
-      {
-        "file": "patient-management-app/src/types/ltht-module-declarations.d.ts",
-        "hash": "4167006286890417615"
-      },
-      {
-        "file": "patient-management-app/src/types/missing-module-declarations.d.ts",
-        "hash": "11020188390007052316"
-      },
-      {
-        "file": "patient-management-app/src/types/react-import-fixes.d.ts",
-        "hash": "14869657923086338893"
-      },
-      {
-        "file": "patient-management-app/src/types/styled-component-fixes.d.ts",
-        "hash": "9020148648549932626"
-      },
-      {
-        "file": "patient-management-app/src/types/theme-extensions.d.ts",
-        "hash": "3169733007980738818"
-      },
-      {
-        "file": "patient-management-app/src/utils/ltht-component-wrappers.tsx",
-        "hash": "3563433666565118561"
-      },
-      {
-        "file": "patient-management-app/tsconfig.json",
-        "hash": "5296886794814532500"
-      },
-      {
-        "file": "project-files/README.md",
-        "hash": "11556517878647978601"
-      },
-      {
-        "file": "project-files/package.json",
-        "hash": "12233727860011886747"
-      },
-      {
-        "file": "project-files/src/App.tsx",
-        "hash": "7885291749077634596"
-      },
-      {
-        "file": "project-files/src/components/common/ErrorMessage.tsx",
-        "hash": "8487371841963956884"
-      },
-      {
-        "file": "project-files/src/components/common/LoadingSpinner.tsx",
-        "hash": "13938584732801793145"
-      },
-      {
-        "file": "project-files/src/components/common/ProtectedRoute.tsx",
-        "hash": "13075768388272723231"
-      },
-      {
-        "file": "project-files/src/components/layout/Header.tsx",
-        "hash": "7522588571020998939"
-      },
-      {
-        "file": "project-files/src/components/layout/MainLayout.tsx",
-        "hash": "2225040585278922630"
-      },
-      {
-        "file": "project-files/src/components/layout/Sidebar.tsx",
-        "hash": "17694901242705235572"
-      },
-      {
-        "file": "project-files/src/components/patient/PatientListItem.tsx",
-        "hash": "2083667534998202747"
-      },
-      {
-        "file": "project-files/src/contexts/AuthContext.tsx",
-        "hash": "14647699477381923607"
-      },
-      {
-        "file": "project-files/src/contexts/PatientContext.tsx",
-        "hash": "827860490587622185"
-      },
-      {
-        "file": "project-files/src/index.tsx",
-        "hash": "5433157100817344100"
-      },
-      {
-        "file": "project-files/src/pages/Dashboard.tsx",
-        "hash": "12165471195893310624"
-      },
-      {
-        "file": "project-files/src/pages/Login.tsx",
-        "hash": "6600727081799519600"
-      },
-      {
-        "file": "project-files/src/services/api/patientService.ts",
-        "hash": "17686706366485598609"
-      },
-      {
-        "file": "project-files/src/services/auth/authService.ts",
-        "hash": "8736436560655279416"
-      },
-      {
-        "file": "project-files/src/theme.ts",
-        "hash": "11232733411184485053"
-      },
-      {
-        "file": "scripts/createComponent.js",
-        "hash": "10942285196231085508"
-      },
-      {
-        "file": "scripts/jest-migration-helper.js",
-        "hash": "14352031223858505967"
-      },
-      {
-        "file": "scripts/setupTests.ts",
-        "hash": "8732295149160297110"
-      },
-      {
-        "file": "scripts/update-subpackage-jest-configs.js",
-        "hash": "4878742380791717334"
-      },
-      {
-        "file": "security-report.md",
-        "hash": "7690612738485296977"
-      },
-      {
-        "file": "ts-jest.config.js",
-        "hash": "3187903181334990538"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "7139645880575308401"
-      },
-      {
-        "file": "yarn.lock",
-        "hash": "7054663930515126842"
-      }
-    ]
+    }
   }
 }

@@ -36,7 +36,7 @@ const MainLayout: React.FC = () => {
       <Header username={user?.name} />
       <ContentContainer>
         <Sidebar />
-        <MainContent>
+        <MainContent id="main-content">
           <Outlet />
         </MainContent>
       </ContentContainer>

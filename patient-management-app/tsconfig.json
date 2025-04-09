@@ -6,7 +6,7 @@
       "dom.iterable",
       "esnext"
     ],
-    "jsx": "react",
+    "jsx": "react-jsx",
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -22,8 +22,14 @@
     "noEmit": true,
     "baseUrl": ".",
     "paths": {
-      "*": ["*", "src/*"],
-      "@ltht-react/*": ["node_modules/@ltht-react/*", "src/components/ltht-wrappers/*"]
+      "*": [
+        "*",
+        "src/*"
+      ],
+      "@ltht-react/*": [
+        "node_modules/@ltht-react/*",
+        "src/components/ltht-wrappers/*"
+      ]
     },
     "typeRoots": [
       "./node_modules/@types",
@@ -33,7 +39,9 @@
       "node",
       "react",
       "react-dom",
-      "jest"
+      "jest",
+      "jest-axe",
+      "@testing-library/jest-dom"
     ]
   },
   "include": [
